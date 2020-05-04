@@ -4658,6 +4658,171 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
 --------------------------------*/
 
 
+  /* --banner area-- */
+  #banner-area-four {
+      padding: 100px 0;
+  }
+
+  .banner-area-social-list {}
+
+  .banner-area-social-list ul li {
+      margin-bottom: 20px;
+  }
+
+  .banner-area-social-list ul li a i {
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #014073;
+      border: 2px solid #014073;
+      font-size: 18px;
+      transition: .4s all;
+      -webkit-transition: .4s all;
+      -moz-transition: .4s all;
+      -ms-transition: .4s all;
+      -o-transition: .4s all;
+  }
+
+  .banner-area-social-list ul li a i:hover {
+      color: #ff9d34;
+      border: 2px solid #ff9d34;
+  }
+
+  .four-items {
+      background-image: url(../img/home-04/banner-area.png);
+      padding: 100px 0px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+  }
+
+  .around-bg {
+      text-align: center;
+  }
+
+  .around-bg h1 {
+      padding-top: 75px;
+  }
+
+  .around-bg h1 a {
+      font-size: 65px;
+      color: #fff;
+      transition: .22s;
+  }
+
+  .around-bg h1 a:hover {
+      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8)
+  }
+
+  .around-bg h2 {
+      padding-top: 20px;
+  }
+
+  .around-bg h2 a {
+      font-size: 36px;
+      color: #fff;
+      font-weight: 600;
+  }
+
+
+  .pulse {
+      width: 60px;
+      height: 60px;
+      background: #ff9d34;
+      border-radius: 50%;
+      color: #FFF;
+      font-size: 20px;
+      text-align: center;
+      line-height: 60px;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      animation: animate-pulse 3s linear infinite;
+      cursor: pointer;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  @keyframes animate-pulse {
+      0% {
+          box-shadow: #ff9d34;
+      }
+
+      40% {
+          box-shadow: 0 0 0 50px rgba(255, 109, 74, 0.0), 0 0 0 0 rgba(255, 109, 74, 0.7);
+      }
+
+      80% {
+          box-shadow: 0 0 0 50px rgba(255, 109, 74, 0.0), 0 0 0 30px rgba(255, 109, 74, 0);
+      }
+
+      100% {
+          box-shadow: 0 0 0 0 rgba(255, 109, 74, 0.0), 0 0 0 30px rgba(255, 109, 74, 0);
+      }
+
+  }
+
+  .around-bg .video-play-btn:before {
+      background: #ff9d34;
+  }
+
+  .icon-video {
+      padding-top: 40px;
+  }
+
+  .icon-video a img {
+      width: 20px !important;
+      height: 20px;
+      margin: 0 auto;
+  }
+
+  #banner-area-four .owl-dots {
+      position: absolute;
+      top: 0;
+      right: -135px;
+      bottom: 0;
+      margin: 0;
+      width: 50px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding-right: 10px;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+  }
+
+
+  #banner-area-four .owl-theme .owl-dots .owl-dot span {
+      width: 15px;
+      height: 15px;
+      margin: 10px 7px;
+      background: #777c87;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity .2s ease;
+      border-radius: 30px;
+  }
+
+
+  #banner-area-four .owl-theme .owl-dots .owl-dot.active span,
+  #banner-area-four .owl-theme .owl-dots .owl-dot:hover span {
+      background: #014073;
+  }
+
+
+
+
+
+
   /* --popular Destion area-- */
   #popular-destinition-arae {
       padding: 100px 0;
@@ -4723,10 +4888,6 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       color: #f79b36;
   }
 
-
-
-
-
   .popular-deas-slider-item {
       position: relative;
   }
@@ -4791,6 +4952,8 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       background-image: url(../img/home-03/test-mo-bg.png);
       padding: 100px 0;
       position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
 
   #travel-counter:after {
@@ -4848,86 +5011,88 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
 	Testimonial area
 -----------------------------------*/
   #testimonial-1 {
-      padding: 150px 0 70px 0;
+      padding: 100px 0 100px 0;
       background-image: url(img/test.png);
       background-size: cover;
   }
 
-  .testmoinal-heading span {
-      font-weight: 500;
+  .testmoinal-area-four-text {}
+
+  .text-test-heading-area {
+      padding-right: 140px;
   }
 
-  .testmoinal-heading p {
-      padding: 0 270px;
-      margin-top: 30px;
+  .text-test-heading-area h6 {}
+
+  .text-test-heading-area h2 {
+      padding-top: 20px;
   }
 
-  .test-hed h4 {
-      font-weight: 600;
-      margin-top: 30px;
+  .text-test-heading-area h2 span {
+      color: #ff9d34;
   }
 
-  .testimonial-wrapper-new {
-      margin-top: 50px;
-      background-image: -webkit-linear-gradient(50deg, #3c3ad6 0%, #fbc7d4 100%);
-      padding: 55px 140px 55px 104px;
+  .testimonial-four-details {
+      padding-top: 40px;
+  }
+
+  .testimonial-four-item {
       position: relative;
-      border-radius: 20px;
   }
 
-  .cot-img {
+  .testimonial-four-item p {}
+
+  .testimonial-four-item h6 {
+      padding-top: 40px;
+      font-weight: 700;
+  }
+
+  .rating-star {
+      padding-top: 15px;
+  }
+
+  .rating-star i {
+      font-size: 16px;
+      color: #ff9d34;
+  }
+
+  .quote-area {
       position: absolute;
-      top: -20px;
-      right: -78px;
+      right: 54px;
+      top: 0;
   }
 
-  .test-hed-det h3 {
-      font-weight: 500;
+  .quote-area .flaticon-quotation:before {
+      content: "\f105";
+      color: #ff9d34;
+      font-size: 52px;
+      position: relative;
+      right: 0;
+      z-index: 1;
+      top: -38px;
+      width: 100%;
+      left: 0;
   }
 
-  .icon-star {
-      margin-top: 15px;
+  .client-grapper {
+      width: 100px;
   }
 
-  .icon-star i {
-      font-size: 20px;
-      color: #f9ff00;
-      margin-right: 5px;
+  .client-img-area {}
+
+  .client-img-area ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
   }
 
-  .test-para-det p {
-      color: #000;
-      margin-top: 20px;
-      padding-right: 78px;
+  .client-img-area ul li {
+      margin: 36px 25px 0px 16px;
   }
 
-  .test-jeq-img img {
-      width: 80px;
-      height: 80px;
-      border-radius: 60px;
-      margin-right: 30px;
-  }
-
-  .test-jeq-img {
-      text-align: center;
-      margin-top: 80px;
-  }
-
-  .test-jeq-img img:hover {
+  .client-img-area ul li img {
       cursor: pointer;
   }
-
-  .test-jeq-img .active {
-      width: 130px;
-      height: 130px;
-      border: 5px solid #fff;
-      box-shadow: 0 0 16px 0px #0000007d;
-      border-radius: 113px;
-  }
-
-
-
-
 
 
 

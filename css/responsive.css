@@ -236,7 +236,46 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
     .agent-box {
         margin-bottom: 30px;
     }
+
+    #banner-area-four .owl-dots {
+        position: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        width: auto;
+        height: 100%;
+        display: inherit;
+        padding-right: 10px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        padding-top: 30px;
+    }
+
+    .blog-area-three {
+        margin-bottom: 30px;
+    }
+
+    .input-area-text {
+        padding-top: 40px;
+    }
+
+    .client-img-area ul li {
+        margin: 36px -3px 0px 6px;
+    }
+
+    .client-grapper {
+        width: 0;
+    }
+
+    #popular-destinition-arae .nav-fill {
+        width: 100%;
+    }
 }
+
 
 @media (min-width: 768px) and (max-width:991px) {
     .left-menu-pho {
@@ -553,6 +592,56 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
     #banner-area-three .nav-fill {
         display: flex;
         width: 100%;
+    }
+
+    .around-bg h1 a {
+        font-size: 40px;
+    }
+
+    .around-bg h2 {
+        padding-top: 0px;
+    }
+
+    .around-bg h2 a {
+        font-size: 24px;
+    }
+
+    .icon-video {
+        padding-top: 10px;
+    }
+
+    .around-bg h1 {
+        padding-top: 0px;
+    }
+
+    .banner-area-social-list ul li {
+        margin-bottom: 20px;
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+    .banner-area-social-list ul {
+        text-align: center;
+    }
+
+    .counter-area-text p {
+        color: #fff;
+        padding: 10px 55px 0 55px;
+    }
+
+    .client-img-area ul {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: inherit;
+    }
+
+    .client-img-area {
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+
+    .blog-area-three {
+        margin-bottom: 30px;
     }
 }
 

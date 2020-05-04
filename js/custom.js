@@ -243,6 +243,35 @@ $(document).ready(function () {
 
 
 
+    $('.banner-area-four-slider').owlCarousel({
+        loop: true,
+        margin: 20,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    });
+
+
+
+
+
     //Client Testimonial Carousel
     if (
         $(".client-testimonial-carousel").length &&
