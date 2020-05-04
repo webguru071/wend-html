@@ -1,0 +1,3793 @@
+/*============ Template Introduction=====================
+Template Name:wend - Tour, Travel & Travel Agency Template
+Version: 1.0
+Author:Andit Theme/Hadayet
+Template URI: http://demo.anditthemes.com/html/travel-agency/
+License URI: https://andit.co/
+Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, traveling, traveling websites, rest, Travelo, vacation.
+/*--------------------------------------------------
+ 			custom device 
+ * -------------------------------------------------*/
+
+@media (min-width:1441px) and (max-width: 1750px) {
+    .left-menu-pho {
+        background: #ff9d33;
+        width: 30%;
+        position: absolute;
+        right: 0;
+        display: flex;
+        height: 84px;
+        border-left: 30px solid #014073;
+        border-bottom: 85px solid #ff9d34;
+    }
+}
+
+
+/*--------------------------------------------------
+ 			laptop 
+ * -------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+    .left-menu-pho {
+        width: 400px;
+    }
+
+    #top-heder-nav .navbar-nav {
+        margin-left: 30px;
+    }
+
+    #top-heder-nav .nav-item {
+        margin-left: 9px;
+    }
+
+    .content-box p {
+        margin-top: 2px;
+        padding: 0 21%;
+    }
+
+    .video-play-banner {
+        right: 144px;
+        position: relative;
+    }
+}
+
+
+/*--------------------------------------------------
+ 			     tabs
+ * -------------------------------------------------*/
+
+@media (min-width: 992px) and (max-width:1199px) {
+    #status {
+        width: 39%;
+        height: 76%;
+        left: 34%;
+        top: 33%;
+    }
+
+    .sams {
+        margin-left: 0px;
+    }
+
+    .left-menu-pho {
+        width: 300px;
+        position: relative;
+        right: -31px;
+    }
+
+    #top-heder-nav .navbar-nav {
+        margin-left: 30px;
+    }
+
+    #top-heder-nav .nav-item {
+        margin-left: 5px;
+    }
+
+    .content-box p {
+        margin-top: 2px;
+        padding: 0 21%;
+    }
+
+    .video-play-banner {
+        right: 144px;
+        position: relative;
+    }
+
+    #top-heder-nav .nav-link {
+        padding: 20px 5px;
+    }
+
+    #banner-home {
+        padding: 95px 0 195px 0;
+        background-position: top;
+    }
+
+    #ab-home select {
+        padding: 6px 0px 6px 34px;
+        font-size: 14px;
+    }
+
+    #datepicker .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-2 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-3 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-4 .form-control {
+        padding: 0 42px;
+    }
+
+    .grun-img img {
+        width: 100%;
+    }
+
+    .all-service-travel {
+        margin-top: 170px;
+    }
+
+    .grun-img {
+        top: 35%;
+        left: 51px;
+    }
+
+    .test-heading h2 {
+        margin-right: 98px;
+    }
+
+    .contact-cover {
+        background: linear-gradient(281deg, rgba(43, 42, 117, 0) 19%, rgba(245, 125, 45, 0.88) 19%);
+    }
+
+    .quick-link {
+        margin-left: 10px;
+    }
+
+    .post-rect-img img {
+        margin-right: 8px;
+    }
+
+    .podt-text-1 p a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    .icon-tsdg i {
+        margin-left: 24px;
+    }
+
+    .blog-times p {
+        font-size: 12px;
+    }
+
+    .blog-athou-img p {
+        font-size: 12px;
+    }
+
+    .alo-blog-clss-text {
+        margin-left: 5px;
+    }
+
+    .blog-clss-img img {
+        width: 100%;
+    }
+
+    .alo-blog-clss-text h6 a {
+        font-size: 11px;
+        line-height: 0;
+        color: #a6a6a6;
+    }
+
+    .alo-blog-clss-text h6 {
+        line-height: 13px;
+        ;
+    }
+
+    .alo-blog-clss-text p {
+        margin-top: 6px;
+        font-size: 11px;
+    }
+
+    .catago-item a {
+        padding: 7px 9px;
+        margin-right: 0;
+    }
+
+    .all-clien-sayt {
+        margin-top: 30px;
+    }
+
+    .lave-cooment {
+        margin-top: 0;
+    }
+
+    .leav-form {
+        margin-top: 10px;
+    }
+
+    .form-for-btn {
+        margin-top: 40px;
+    }
+
+    .who-img img {
+        width: 100%;
+    }
+
+    .left-op {
+        margin-right: 55px;
+    }
+}
+
+
+/*--------------------------------------------------
+ 			laptop, mobile
+ * -------------------------------------------------*/
+
+@media (max-width: 992px) {
+    .agent-box {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .left-menu-pho {
+        width: 300px;
+        position: relative;
+        right: -31px;
+    }
+
+    #top-heder-nav .navbar-nav {
+        margin-left: 0px;
+    }
+
+    #top-heder-nav .nav-item {
+        margin-left: 5px;
+    }
+
+    .content-box p {
+        margin-top: 2px;
+        padding: 0 13%;
+    }
+
+    .video-play-banner {
+        right: 25px;
+        position: relative;
+        margin-top: 66px;
+    }
+
+    #top-heder-nav .nav-link {
+        padding: 20px 5px;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        border-top: 1px solid #fff;
+        background: #ff9d341f;
+    }
+
+    #banner-home {
+        padding: 95px 0 195px 0;
+        background-position: top;
+    }
+
+    #ab-home select {
+        padding: 6px 0px 6px 34px;
+        font-size: 14px;
+    }
+
+    #datepicker .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-2 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-3 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-4 .form-control {
+        padding: 0 42px;
+    }
+
+    .grun-img img {
+        width: 100%;
+    }
+
+    .all-service-travel {
+        margin-top: 67px;
+        justify-content: center;
+    }
+
+    .grun-img {
+        top: 48%;
+        left: 26%;
+        width: 37%;
+    }
+
+    .test-heading h2 {
+        margin-right: 52px;
+    }
+
+    .contact-cover {
+        background: linear-gradient(281deg, rgba(43, 42, 117, 0) 19%, rgba(245, 125, 45, 0.88) 19%);
+    }
+
+    .quick-link {
+        margin-left: 10px;
+    }
+
+    .post-rect-img img {
+        margin-right: 8px;
+    }
+
+    .podt-text-1 p a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #home-team .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    #img-nature .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    .icon-tsdg a i {
+        margin-bottom: 35px;
+    }
+
+    .blog-times p {
+        font-size: 12px;
+    }
+
+    .blog-athou-img p {
+        font-size: 12px;
+    }
+
+    .alo-blog-clss-text {
+        margin-left: 5px;
+    }
+
+    .blog-clss-img img {
+        width: 100%;
+    }
+
+    .alo-blog-clss-text h6 a {
+        font-size: 16px;
+        line-height: 0;
+        color: #a6a6a6;
+    }
+
+    .alo-blog-clss-text h6 {
+        line-height: 13px;
+        ;
+    }
+
+    .alo-blog-clss-text p {
+        margin-top: 29px;
+        font-size: 14px;
+    }
+
+    .catago-item a {
+        padding: 7px 21px;
+        margin-right: 9px;
+    }
+
+    .all-clien-sayt {
+        margin-top: 30px;
+    }
+
+    .lave-cooment {
+        margin-top: 0;
+    }
+
+    .leav-form {
+        margin-top: 10px;
+    }
+
+    .form-for-btn {
+        margin-top: 40px;
+    }
+
+    .who-img img {
+        width: 100%;
+    }
+
+    .left-op {
+        margin-right: -9px;
+    }
+
+    .left-menu-pho {
+        display: none;
+    }
+
+    #ab-home .nav-fill {
+        width: 50%;
+    }
+
+    .booking-info {
+        margin-bottom: 25px;
+    }
+
+    .amz-img img {
+        width: 100%;
+        display: none;
+    }
+
+    #amazing {
+        padding: 100px 0 187px 0;
+        background-position: right;
+    }
+
+    .team-contact {
+        left: 38px;
+        top: 86px;
+    }
+
+    .coa-app img {
+        margin-bottom: 30px;
+    }
+
+    .video-play-test {
+        top: -303px;
+        left: 42%;
+    }
+
+    .test-slider-home-1 {
+        margin-top: 0;
+    }
+
+    #home-testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+        right: -2px;
+        top: 271px;
+    }
+
+    .mar-top-responsive {
+        margin-top: 30px;
+    }
+
+    .bookoing-secrty {
+        margin-top: 40px;
+    }
+
+    .ser-ab-deta {
+        padding-top: 0;
+    }
+
+    .ersd-2 {
+        margin-top: 50px;
+    }
+
+    .oiuytr {
+        padding-top: 0 !important;
+    }
+
+    .icon-tsdg h6 {
+        margin-left: 9px;
+    }
+
+    .gall-overlay {
+        background: linear-gradient(189deg, rgba(245, 125, 45, 0.88) 29%, rgba(245, 125, 45, 0.88) 29%);
+    }
+
+    .blog-item-img img {
+        transition: 1.6s;
+        width: 100%;
+    }
+
+    .maj {
+        margin-top: 30px;
+    }
+
+    .inteagram-img a img {
+        margin: 3px 1px;
+        width: 17%;
+    }
+
+    .alo-search {
+        margin-top: 40px;
+    }
+
+    .who-box {
+        margin-top: 40px;
+    }
+
+    .best-service-heading h2 {
+        padding: 0 0;
+    }
+
+    .best-service-heading p {
+        padding: 0px 17%;
+    }
+
+    .adress-cover-main {
+        padding: 0px;
+    }
+
+    .contact-3-cover {
+        margin-right: 0px;
+    }
+
+    .all-dfkj:after {
+        position: inherit;
+    }
+
+    .for-img img {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    #status {
+        width: 52%;
+        height: 76%;
+        left: 34%;
+        top: 33%;
+    }
+}
+
+
+/*--------------------------------------------------
+ 		mobile,iphone
+ * -------------------------------------------------*/
+@media (max-width:767px) {
+
+    .blog-box-area {
+        margin-top: 30px;
+    }
+
+    #banner-area-three .nav-fill {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    .test-moinal-ing-left img {
+        height: 215px;
+    }
+
+    .flaticon-quote:before {
+        left: 47px;
+    }
+
+    #status {
+        width: 71%;
+        height: 76%;
+        left: 21%;
+        top: 33%;
+    }
+
+    #blog-banner {
+        padding: 100px 0;
+    }
+
+    #about-banner {
+        padding: 1 00px 0;
+    }
+
+    .commom-sub-heading h6 {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    #faq-banner {
+        padding: 100px 0;
+    }
+
+    #contact-banner {
+        padding: 100px 0;
+    }
+
+    #gallery-banner {
+        padding: 100px 0;
+    }
+
+    #service-main-banner {
+        padding: 100px 0;
+    }
+
+    #tour-packes-deatils {
+        padding: 100px 0;
+    }
+
+    #tour-packes {
+        padding: 100px 0 200px 0;
+    }
+
+    .left-menu-pho {
+        width: 300px;
+        position: relative;
+        right: -31px;
+    }
+
+    #top-heder-nav .navbar-nav {
+        margin-left: 0px;
+    }
+
+    #top-heder-nav .nav-item {
+        margin-left: 5px;
+    }
+
+    .content-box p {
+        margin-top: 2px;
+        padding: 0 13%;
+    }
+
+    .video-play-banner {
+        right: 80px;
+        position: absolute;
+        margin-top: 0;
+        top: -81px;
+    }
+
+    #top-heder-nav .nav-link {
+        padding: 20px 5px;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        border-top: 1px solid #fff;
+        background: #ff9d341f;
+    }
+
+    #banner-home {
+        padding: 95px 0 233px 0;
+        background-position: top;
+    }
+
+    #ab-home select {
+        padding: 6px 0px 6px 34px;
+        font-size: 14px;
+    }
+
+    #datepicker .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-2 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-3 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-4 .form-control {
+        padding: 0 42px;
+    }
+
+    .grun-img img {
+        width: 100%;
+    }
+
+    .all-service-travel {
+        margin-top: 67px;
+        justify-content: center;
+    }
+
+    .grun-img {
+        top: 48%;
+        left: 26%;
+        width: 37%;
+    }
+
+    .test-heading h2 {
+        margin-right: 0px;
+    }
+
+    .contact-cover {
+        background: linear-gradient(276deg, rgba(43, 42, 117, 0) 19%, rgba(245, 125, 45, 0.88) 19%);
+    }
+
+    .quick-link {
+        margin-left: 10px;
+    }
+
+    .post-rect-img img {
+        margin-right: 8px;
+    }
+
+    .podt-text-1 p a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #home-team .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    #img-nature .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    .icon-tsdg a i {
+        margin-bottom: 44px;
+    }
+
+    .blog-times p {
+        font-size: 12px;
+    }
+
+    .blog-athou-img p {
+        font-size: 12px;
+    }
+
+    .alo-blog-clss-text {
+        margin-left: 5px;
+    }
+
+    .blog-clss-img img {
+        width: 100%;
+    }
+
+    .alo-blog-clss-text h6 a {
+        font-size: 16px;
+        line-height: 0;
+        color: #a6a6a6;
+    }
+
+    .alo-blog-clss-text h6 {
+        line-height: 13px;
+        ;
+    }
+
+    .alo-blog-clss-text p {
+        margin-top: 29px;
+        font-size: 14px;
+    }
+
+    .catago-item a {
+        padding: 7px 21px;
+        margin-right: 9px;
+    }
+
+    .all-clien-sayt {
+        margin-top: 30px;
+    }
+
+    .lave-cooment {
+        margin-top: 0;
+    }
+
+    .leav-form {
+        margin-top: 10px;
+    }
+
+    .form-for-btn {
+        margin-top: 40px;
+    }
+
+    .who-img img {
+        width: 75%;
+    }
+
+    .left-op {
+        margin-right: -9px;
+    }
+
+    .left-menu-pho {
+        display: none;
+    }
+
+    #ab-home .nav-fill {
+        width: 50%;
+    }
+
+    .booking-info {
+        margin-bottom: 25px;
+    }
+
+    .amz-img img {
+        width: 100%;
+        display: none;
+    }
+
+    #amazing {
+        padding: 60px 0 60px 0;
+        background-position: right;
+    }
+
+    .team-contact {
+        left: 30px;
+        top: 53px;
+    }
+
+    .coa-app img {
+        margin-bottom: 30px;
+    }
+
+    .video-play-test {
+        top: -205px;
+        left: 41%;
+    }
+
+    .test-slider-home-1 {
+        margin-top: 0;
+    }
+
+    #home-testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+        right: -2px;
+        top: 271px;
+    }
+
+    .mar-top-responsive {
+        margin-top: 30px;
+    }
+
+    .bookoing-secrty {
+        margin-top: 40px;
+    }
+
+    .ser-ab-deta {
+        padding-top: 0;
+    }
+
+    .ersd-2 {
+        margin-top: 50px;
+    }
+
+    .oiuytr {
+        padding-top: 0 !important;
+    }
+
+    .icon-tsdg h6 {
+        margin-left: 9px;
+    }
+
+    .gall-overlay {
+        background: linear-gradient(189deg, rgba(245, 125, 45, 0.88) 29%, rgba(245, 125, 45, 0.88) 29%);
+    }
+
+    .blog-item-img img {
+        transition: 1.6s;
+        width: 100%;
+    }
+
+    .maj {
+        margin-top: 30px;
+    }
+
+    .inteagram-img a img {
+        margin: 3px 1px;
+        width: 15%;
+    }
+
+    .alo-search {
+        margin-top: 40px;
+    }
+
+    .who-box {
+        margin-top: 40px;
+    }
+
+    .best-service-heading h2 {
+        padding: 0 0;
+    }
+
+    .best-service-heading p {
+        padding: 0px 9%;
+    }
+
+    .adress-cover-main {
+        padding: 0px;
+    }
+
+    .contact-3-cover {
+        margin-right: 0px;
+    }
+
+    .all-dfkj:after {
+        position: inherit;
+    }
+
+    .for-img img {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .main-email-text p {
+        font-size: 11px;
+        margin-right: 15px;
+    }
+
+    .main-loc-text p {
+        font-size: 11px;
+    }
+
+    .main-loc-text i {
+        margin-right: 8px;
+        margin-left: 11px;
+    }
+
+    .header-most-top select {
+        width: 67%;
+    }
+
+    .user-log i {
+        margin-right: 3px;
+        margin-left: 0;
+    }
+
+    .user-log {
+        border-left: 0px solid #808080;
+    }
+
+    #ab-home {
+        background-image: url(../img/maP.png);
+        background-size: contain;
+    }
+
+    .left-side-text-ab {
+        margin-top: 50px;
+    }
+
+    .ab-slider {
+        margin-top: 60px;
+    }
+
+    #ab-home {
+        padding: 60px 0;
+    }
+
+    .max-live {
+        margin-top: 60px;
+    }
+
+    #tour-des {
+        padding: 60px 0;
+    }
+
+    .content-box {
+        margin-bottom: 20px;
+    }
+
+    #summery {
+        padding: 60px 0;
+    }
+
+    #home-team {
+        padding: 60px 0;
+    }
+
+    #home-testimonial-top {
+        padding: 60px 0 280px 0;
+    }
+
+    .vt-img {
+        margin-top: -254px;
+    }
+
+    #home-testimonial {
+        padding-bottom: 60px;
+    }
+
+    .info-office {
+        display: inherit;
+        margin-top: 20px;
+    }
+
+    .email-deta {
+        margin-top: 15px;
+    }
+
+    .map-inner iframe {
+        height: 93%;
+    }
+
+    .face {
+        margin-right: 12px;
+    }
+
+    .copy-right-para p {
+        font-size: 16px;
+    }
+
+    #footer-all-page {
+        padding: 60px 0;
+    }
+
+    .start-icon-des i {
+        font-size: 14px;
+        margin-right: -1px;
+    }
+
+    #tour-detailes-main {
+        padding: 60px 0;
+    }
+
+    .tour-main-informa h6 {
+        font-size: 14px;
+    }
+
+    #wer-service {
+        padding: 60px 0;
+    }
+
+    .logo-slilder {
+        margin-top: 30px;
+    }
+
+    #gallery-area {
+        padding: 25px 0 60px 0;
+    }
+
+    #blog-content {
+        padding: 60px 0;
+    }
+
+    #blog-single-main {
+        padding: 60px 0;
+    }
+
+    .blog-single-dd-hed h4 a {
+        font-size: 24px;
+    }
+
+    .box-tes-bl {
+        padding: 30px 65px 30px 121px;
+    }
+
+    .coom-2-client {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .mar-nened {
+        margin-left: 50px;
+    }
+
+    #who-area {
+        padding: 60px 0;
+    }
+
+    .who-img {
+        text-align: center;
+    }
+
+    #best-service {
+        padding: 60px 0;
+    }
+
+    #faqws-area {
+        padding: 60px 0;
+    }
+
+    .contact-heading h2 {
+        font-size: 26px;
+    }
+
+    #contact-main-area {
+        padding-bottom: 60px;
+    }
+
+    #for-page {
+        padding: 100px 0;
+    }
+}
+
+
+/*--------------------------------------------------
+ 			laptop 
+ * -------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width:991px) {
+    .left-menu-pho {
+        width: 300px;
+        position: relative;
+        right: -31px;
+    }
+
+    #top-heder-nav .navbar-nav {
+        margin-left: 0px;
+    }
+
+    #top-heder-nav .nav-item {
+        margin-left: 5px;
+    }
+
+    .content-box p {
+        margin-top: 2px;
+        padding: 0 13%;
+    }
+
+    .video-play-banner {
+        right: 25px;
+        position: relative;
+        margin-top: 66px;
+    }
+
+    #top-heder-nav .nav-link {
+        padding: 20px 5px;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        border-top: 1px solid #fff;
+        background: #ff9d341f;
+    }
+
+    #banner-home {
+        padding: 95px 0 195px 0;
+        background-position: top;
+    }
+
+    #ab-home select {
+        padding: 6px 0px 6px 34px;
+        font-size: 14px;
+    }
+
+    #datepicker .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-2 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-3 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-4 .form-control {
+        padding: 0 42px;
+    }
+
+    .grun-img img {
+        width: 100%;
+    }
+
+    .all-service-travel {
+        margin-top: 67px;
+        justify-content: center;
+    }
+
+    .grun-img {
+        top: 48%;
+        left: 26%;
+        width: 37%;
+    }
+
+    .test-heading h2 {
+        margin-right: 52px;
+    }
+
+    .contact-cover {
+        background: linear-gradient(281deg, rgba(43, 42, 117, 0) 19%, rgba(245, 125, 45, 0.88) 19%);
+    }
+
+    .quick-link {
+        margin-left: 10px;
+    }
+
+    .post-rect-img img {
+        margin-right: 8px;
+    }
+
+    .podt-text-1 p a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #home-team .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    #img-nature .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    .icon-tsdg a i {
+        margin-bottom: 35px;
+    }
+
+    .blog-times p {
+        font-size: 12px;
+    }
+
+    .blog-athou-img p {
+        font-size: 12px;
+    }
+
+    .alo-blog-clss-text {
+        margin-left: 5px;
+    }
+
+    .blog-clss-img img {
+        width: 100%;
+    }
+
+    .alo-blog-clss-text h6 a {
+        font-size: 16px;
+        line-height: 0;
+        color: #a6a6a6;
+    }
+
+    .alo-blog-clss-text h6 {
+        line-height: 13px;
+        ;
+    }
+
+    .alo-blog-clss-text p {
+        margin-top: 29px;
+        font-size: 14px;
+    }
+
+    .catago-item a {
+        padding: 7px 21px;
+        margin-right: 9px;
+    }
+
+    .all-clien-sayt {
+        margin-top: 30px;
+    }
+
+    .lave-cooment {
+        margin-top: 0;
+    }
+
+    .leav-form {
+        margin-top: 10px;
+    }
+
+    .form-for-btn {
+        margin-top: 40px;
+    }
+
+    .who-img img {
+        width: 100%;
+    }
+
+    .left-op {
+        margin-right: -9px;
+    }
+
+    .left-menu-pho {
+        display: none;
+    }
+
+    #ab-home .nav-fill {
+        width: 50%;
+    }
+
+    .booking-info {
+        margin-bottom: 25px;
+    }
+
+    .amz-img img {
+        width: 100%;
+        display: none;
+    }
+
+    #amazing {
+        padding: 100px 0 187px 0;
+        background-position: right;
+    }
+
+    .team-contact {
+        left: 38px;
+        top: 86px;
+    }
+
+    .coa-app img {
+        margin-bottom: 30px;
+    }
+
+    .video-play-test {
+        top: -303px;
+        left: 42%;
+    }
+
+    .test-slider-home-1 {
+        margin-top: 0;
+    }
+
+    #home-testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+        right: -2px;
+        top: 271px;
+    }
+
+    .mar-top-responsive {
+        margin-top: 30px;
+    }
+
+    .bookoing-secrty {
+        margin-top: 40px;
+    }
+
+    .ser-ab-deta {
+        padding-top: 0;
+    }
+
+    .ersd-2 {
+        margin-top: 50px;
+    }
+
+    .oiuytr {
+        padding-top: 0 !important;
+    }
+
+    .icon-tsdg h6 {
+        margin-left: 9px;
+    }
+
+    .gall-overlay {
+        background: linear-gradient(189deg, rgba(245, 125, 45, 0.88) 29%, rgba(245, 125, 45, 0.88) 29%);
+    }
+
+    .blog-item-img img {
+        transition: 1.6s;
+        width: 100%;
+    }
+
+    .maj {
+        margin-top: 30px;
+    }
+
+    .inteagram-img a img {
+        margin: 3px 1px;
+        width: 17%;
+    }
+
+    .alo-search {
+        margin-top: 40px;
+    }
+
+    .who-box {
+        margin-top: 40px;
+    }
+
+    .best-service-heading h2 {
+        padding: 0 0;
+    }
+
+    .best-service-heading p {
+        padding: 0px 17%;
+    }
+
+    .adress-cover-main {
+        padding: 0px;
+    }
+
+    .contact-3-cover {
+        margin-right: 0px;
+    }
+
+    .all-dfkj:after {
+        position: inherit;
+    }
+
+    .for-img img {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+}
+
+
+/*----------------------------------------------
+			smaill mobile
+ * -------------------------------------------*/
+
+@media (min-width: 480px) and (max-width:575px) {
+    #status {
+        width: 78%;
+        height: 76%;
+        left: 14%;
+        top: 30%;
+    }
+
+    .modal-dialog {
+        max-width: 95%;
+    }
+
+    .modal-body {
+        padding: 35px 20px;
+    }
+
+    .travel-tyepe {
+        display: flex;
+    }
+
+    .check-box-many {
+        display: flex;
+        position: inherit;
+    }
+
+    .check-box-many label {
+        font-size: 11px;
+        margin-left: 15px;
+        margin-right: 18px;
+    }
+
+    .left-menu-pho {
+        width: 300px;
+        position: relative;
+        right: -31px;
+    }
+
+    #top-heder-nav .navbar-nav {
+        margin-left: 0px;
+    }
+
+    #top-heder-nav .nav-item {
+        margin-left: 5px;
+    }
+
+    .content-box p {
+        margin-top: 2px;
+        padding: 0 6%;
+    }
+
+    .video-play-banner {
+        right: 80px;
+        position: absolute;
+        margin-top: 0;
+        top: -95px;
+    }
+
+    #top-heder-nav .nav-link {
+        padding: 20px 5px;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        border-top: 1px solid #fff;
+        background: #ff9d341f;
+    }
+
+    #banner-home {
+        padding: 70px 0 215px 0;
+        background-position: top;
+    }
+
+    #ab-home select {
+        padding: 6px 0px 6px 34px;
+        font-size: 14px;
+    }
+
+    #datepicker .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-2 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-3 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-4 .form-control {
+        padding: 0 42px;
+    }
+
+    .grun-img img {
+        width: 100%;
+    }
+
+    .all-service-travel {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .grun-img {
+        top: 48%;
+        left: 26%;
+        width: 37%;
+    }
+
+    .test-heading h2 {
+        margin-right: 0px;
+    }
+
+    .contact-cover {
+        background: linear-gradient(276deg, rgba(43, 42, 117, 0) 19%, rgba(245, 125, 45, 0.88) 19%);
+    }
+
+    .quick-link {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .post-rect-img img {
+        margin-right: 8px;
+    }
+
+    .podt-text-1 p a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #home-team .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    #img-nature .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    .icon-tsdg i {
+        margin-bottom: 87px;
+    }
+
+    .blog-times p {
+        font-size: 14px;
+    }
+
+    .blog-athou-img p {
+        font-size: 14px;
+    }
+
+    .alo-blog-clss-text {
+        margin-left: 5px;
+    }
+
+    .blog-clss-img img {
+        width: 100%;
+    }
+
+    .alo-blog-clss-text h6 a {
+        font-size: 16px;
+        line-height: 0;
+        color: #a6a6a6;
+    }
+
+    .alo-blog-clss-text h6 {
+        line-height: 13px;
+        ;
+    }
+
+    .alo-blog-clss-text p {
+        margin-top: 29px;
+        font-size: 14px;
+    }
+
+    .catago-item a {
+        padding: 7px 21px;
+        margin-right: 9px;
+    }
+
+    .all-clien-sayt {
+        margin-top: 30px;
+    }
+
+    .lave-cooment {
+        margin-top: 0;
+    }
+
+    .leav-form {
+        margin-top: 10px;
+    }
+
+    .form-for-btn {
+        margin-top: 40px;
+    }
+
+    .who-img img {
+        width: 75%;
+    }
+
+    .left-op {
+        margin-right: -9px;
+    }
+
+    .left-menu-pho {
+        display: none;
+    }
+
+    #ab-home .nav-fill {
+        width: 60%;
+    }
+
+    .booking-info {
+        margin-bottom: 25px;
+    }
+
+    .amz-img img {
+        width: 100%;
+        display: none;
+    }
+
+    #amazing {
+        padding: 60px 0 60px 0;
+        background-position: right;
+    }
+
+    .team-contact {
+        left: 71px;
+        top: 37%;
+    }
+
+    .coa-app img {
+        margin-bottom: 30px;
+    }
+
+    .video-play-test {
+        top: -212px;
+        left: 39%;
+    }
+
+    .test-slider-home-1 {
+        margin-top: 0;
+    }
+
+    #home-testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+        right: -2px;
+        top: 271px;
+    }
+
+    .mar-top-responsive {
+        margin-top: 30px;
+    }
+
+    .bookoing-secrty {
+        margin-top: 40px;
+    }
+
+    .ser-ab-deta {
+        padding-top: 0;
+    }
+
+    .ersd-2 {
+        margin-top: 50px;
+    }
+
+    .oiuytr {
+        padding-top: 0 !important;
+    }
+
+    .icon-tsdg h6 {
+        margin-left: 9px;
+    }
+
+    .gall-overlay {
+        background: linear-gradient(189deg, rgba(245, 125, 45, 0.88) 29%, rgba(245, 125, 45, 0.88) 29%);
+    }
+
+    .blog-item-img img {
+        transition: 1.6s;
+        width: 100%;
+    }
+
+    .maj {
+        margin-top: 30px;
+    }
+
+    .inteagram-img a img {
+        margin: 3px 1px;
+        width: 15%;
+    }
+
+    .alo-search {
+        margin-top: 40px;
+    }
+
+    .who-box {
+        margin-top: 40px;
+    }
+
+    .best-service-heading h2 {
+        padding: 0 0;
+    }
+
+    .best-service-heading p {
+        padding: 0px 0%;
+    }
+
+    .adress-cover-main {
+        padding: 0px;
+    }
+
+    .contact-3-cover {
+        margin-right: 0px;
+    }
+
+    .all-dfkj:after {
+        position: inherit;
+    }
+
+    .for-img img {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .main-email-text p {
+        font-size: 11px;
+        margin-right: 15px;
+    }
+
+    .main-loc-text p {
+        font-size: 11px;
+    }
+
+    .main-loc-text i {
+        margin-right: 8px;
+        margin-left: 11px;
+    }
+
+    .header-most-top select {
+        width: 67%;
+    }
+
+    .user-log i {
+        margin-right: 3px;
+        margin-left: 0;
+    }
+
+    .user-log {
+        border-left: 0px solid #808080;
+    }
+
+    #ab-home {
+        background-image: url(../img/maP.png);
+        background-size: contain;
+    }
+
+    .left-side-text-ab {
+        margin-top: 30px;
+    }
+
+    .ab-slider {
+        margin-top: 60px;
+    }
+
+    #ab-home {
+        padding: 60px 0;
+    }
+
+    .max-live {
+        margin-top: 60px;
+    }
+
+    #tour-des {
+        padding: 60px 0;
+    }
+
+    .content-box {
+        margin-bottom: 20px;
+    }
+
+    #summery {
+        padding: 60px 0;
+    }
+
+    #home-team {
+        padding: 60px 0;
+    }
+
+    #home-testimonial-top {
+        padding: 60px 0 280px 0;
+    }
+
+    .vt-img {
+        margin-top: -254px;
+    }
+
+    #home-testimonial {
+        padding-bottom: 60px;
+    }
+
+    .info-office {
+        display: inherit;
+        margin-top: 20px;
+    }
+
+    .email-deta {
+        margin-top: 15px;
+    }
+
+    .map-inner iframe {
+        height: 93%;
+    }
+
+    .face {
+        margin-right: 3px;
+    }
+
+    .copy-right-para p {
+        font-size: 12px;
+    }
+
+    #footer-all-page {
+        padding: 60px 0;
+    }
+
+    .start-icon-des i {
+        font-size: 14px;
+        margin-right: -1px;
+    }
+
+    #tour-detailes-main {
+        padding: 60px 0;
+    }
+
+    .tour-main-informa h6 {
+        font-size: 14px;
+    }
+
+    #wer-service {
+        padding: 60px 0;
+    }
+
+    .logo-slilder {
+        margin-top: 30px;
+    }
+
+    #gallery-area {
+        padding: 25px 0 60px 0;
+    }
+
+    #blog-content {
+        padding: 60px 0;
+    }
+
+    #blog-single-main {
+        padding: 60px 0;
+    }
+
+    .blog-single-dd-hed h4 a {
+        font-size: 24px;
+    }
+
+    .box-tes-bl {
+        padding: 30px 65px 30px 121px;
+    }
+
+    .coom-2-client {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .mar-nened {
+        margin-left: 0px;
+    }
+
+    #who-area {
+        padding: 60px 0;
+    }
+
+    .who-img {
+        text-align: center;
+    }
+
+    #best-service {
+        padding: 60px 0;
+    }
+
+    #faqws-area {
+        padding: 60px 0;
+    }
+
+    .contact-heading h2 {
+        font-size: 26px;
+    }
+
+    #contact-main-area {
+        padding-bottom: 60px;
+    }
+
+    #for-page {
+        padding: 100px 0;
+    }
+
+    #nav-tabContent {
+        margin: 25px 30px 0 30px;
+    }
+
+    .flight-cover {
+        margin-right: 15px;
+    }
+
+    .all-span-btn-com {
+        left: 35%;
+    }
+
+    .test-moinal-ing-left img {
+        width: 39% !important;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+    .test-flex p {
+        margin-top: 10px;
+    }
+
+    .all-single-cover {
+        margin-right: 0px;
+    }
+
+    .quick-link-2 {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .flaticon-quote:before {
+        left: 203px;
+    }
+
+    .login-area {
+        display: none;
+    }
+
+    .main-flex-top {
+        justify-content: center;
+        display: flex;
+    }
+
+    .tour-main-informa h6 span {
+        margin-left: 6px;
+    }
+
+    .video-play-test i {
+        font-size: 22px;
+        height: 81px;
+        width: 81px;
+        line-height: 81px;
+    }
+
+    .all-cover-hall {
+        bottom: 60px;
+    }
+
+    .for-egt {
+        margin-top: 30px;
+    }
+
+    .blog-pagination {
+        margin: 35px auto 0 auto;
+    }
+
+    .al-img-at1 p {
+        margin-left: 4px;
+    }
+
+    .al-img-at2 a i {
+        margin-left: 35px;
+    }
+
+    .inner-tahes ul li {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .inner-tahes {
+        padding: 20px 0;
+    }
+
+    .coomm-2cliebt-hed .dadate-titm {
+        font-size: 12px;
+        margin-left: 17px;
+    }
+
+    .sec-who {
+        margin-top: 30px;
+    }
+
+    .all-ineer-der-ter img {
+        padding-top: 39px;
+        width: 88%;
+    }
+
+    .all-item-ter {
+        margin-top: 35px;
+    }
+
+    .card-header h5 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .adserg {
+        margin-top: 30px;
+    }
+
+    #blog-banner {
+        padding: 90px 0;
+    }
+
+    #about-banner {
+        padding: 90px 0;
+    }
+
+    .commom-sub-heading h6 {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    #faq-banner {
+        padding: 90px 0;
+    }
+
+    #contact-banner {
+        padding: 90px 0;
+    }
+
+    #gallery-banner {
+        padding: 90px 0;
+    }
+
+    #service-main-banner {
+        padding: 90px 0;
+    }
+
+    #tour-packes-deatils {
+        padding: 90px 0;
+    }
+
+    #tour-packes {
+        padding: 90px 0 190px 0;
+    }
+}
+
+
+/*----------------------------------------------
+ 		extra small device
+ * ----------------------------------------------*/
+
+@media (min-width: 361px) and (max-width:479px) {
+    .left-menu-pho {
+        width: 300px;
+        position: relative;
+        right: -31px;
+    }
+
+    .all-price {
+        display: inherit;
+    }
+
+    .price-tour h2 {
+        font-size: 40px;
+        text-align: inherit;
+        line-height: 80px;
+    }
+
+    .tour-main-informa {
+        margin-top: 0px;
+    }
+
+    #top-heder-nav .navbar-nav {
+        margin-left: 0px;
+        margin: 27px 0 39px 0;
+    }
+
+    #top-heder-nav .nav-item {
+        margin-left: 5px;
+    }
+
+    .content-box p {
+        margin-top: 2px;
+        padding: 0 6%;
+    }
+
+    .video-play-banner {
+        right: 51px;
+        position: absolute;
+        margin-top: 0;
+        top: -91px;
+    }
+
+    #top-heder-nav .nav-link {
+        padding: 20px 5px;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        border-top: 1px solid #fff;
+        background: #ff9d341f;
+    }
+
+    #banner-home {
+        padding: 70px 0 215px 0;
+        background-position: top;
+    }
+
+    #ab-home select {
+        padding: 6px 0px 6px 34px;
+        font-size: 14px;
+    }
+
+    #datepicker .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-2 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-3 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-4 .form-control {
+        padding: 0 42px;
+    }
+
+    .grun-img img {
+        width: 100%;
+    }
+
+    .all-service-travel {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .grun-img {
+        top: 48%;
+        left: 26%;
+        width: 37%;
+    }
+
+    .test-heading h2 {
+        margin-right: 0px;
+    }
+
+    .contact-cover {
+        background: linear-gradient(180deg, rgba(43, 42, 117, 0) 0%, rgba(245, 125, 45, 0.88) 0);
+        padding: 40px 10px 40px 10px;
+    }
+
+    .quick-link {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .post-rect-img img {
+        margin-right: 8px;
+    }
+
+    .podt-text-1 p a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    #home-team .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    #img-nature .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    .icon-tsdg a i {
+        margin-bottom: 55px;
+    }
+
+    .blog-times p {
+        font-size: 14px;
+    }
+
+    .blog-athou-img p {
+        font-size: 14px;
+    }
+
+    .alo-blog-clss-text {
+        margin-left: 5px;
+    }
+
+    .blog-clss-img img {
+        width: 100%;
+    }
+
+    .alo-blog-clss-text h6 a {
+        font-size: 16px;
+        line-height: 0;
+        color: #a6a6a6;
+    }
+
+    .alo-blog-clss-text h6 {
+        line-height: 13px;
+        ;
+    }
+
+    .alo-blog-clss-text p {
+        margin-top: 29px;
+        font-size: 14px;
+    }
+
+    .catago-item a {
+        padding: 7px 21px;
+        margin-right: 9px;
+    }
+
+    .all-clien-sayt {
+        margin-top: 30px;
+    }
+
+    .lave-cooment {
+        margin-top: 0;
+    }
+
+    .leav-form {
+        margin-top: 10px;
+    }
+
+    .form-for-btn {
+        margin-top: 40px;
+    }
+
+    .who-img img {
+        width: 75%;
+    }
+
+    .left-op {
+        margin-right: -9px;
+    }
+
+    .left-menu-pho {
+        display: none;
+    }
+
+    #ab-home .nav-fill {
+        width: 80%;
+    }
+
+    .booking-info {
+        margin-bottom: 25px;
+    }
+
+    .amz-img img {
+        width: 100%;
+        display: none;
+    }
+
+    #amazing {
+        padding: 60px 0 60px 0;
+        background-position: right;
+    }
+
+    .team-contact {
+        left: 71px;
+        top: 37%;
+    }
+
+    .coa-app img {
+        margin-bottom: 30px;
+    }
+
+    .video-play-test {
+        top: -237px;
+        left: 35%;
+    }
+
+    .test-slider-home-1 {
+        margin-top: 0;
+    }
+
+    #home-testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+        right: -2px;
+        top: 271px;
+    }
+
+    .mar-top-responsive {
+        margin-top: 30px;
+    }
+
+    .bookoing-secrty {
+        margin-top: 40px;
+    }
+
+    .ser-ab-deta {
+        padding-top: 0;
+    }
+
+    .ersd-2 {
+        margin-top: 50px;
+    }
+
+    .oiuytr {
+        padding-top: 0 !important;
+    }
+
+    .icon-tsdg h6 {
+        margin-left: 9px;
+    }
+
+    .gall-overlay {
+        background: linear-gradient(189deg, rgba(245, 125, 45, 0.88) 29%, rgba(245, 125, 45, 0.88) 29%);
+    }
+
+    .blog-item-img img {
+        transition: 1.6s;
+        width: 100%;
+    }
+
+    .maj {
+        margin-top: 30px;
+    }
+
+    .inteagram-img a img {
+        margin: 3px 1px;
+        width: 15%;
+    }
+
+    .alo-search {
+        margin-top: 40px;
+    }
+
+    .who-box {
+        margin-top: 40px;
+    }
+
+    .best-service-heading h2 {
+        padding: 0 0;
+    }
+
+    .best-service-heading p {
+        padding: 0px 0%;
+    }
+
+    .adress-cover-main {
+        padding: 0px;
+    }
+
+    .contact-3-cover {
+        margin-right: 0px;
+    }
+
+    .all-dfkj:after {
+        position: inherit;
+    }
+
+    .for-img img {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .main-email-text p {
+        font-size: 11px;
+        margin-right: 15px;
+    }
+
+    .main-loc-text p {
+        font-size: 11px;
+    }
+
+    .main-loc-text i {
+        margin-right: 8px;
+        margin-left: 11px;
+    }
+
+    .header-most-top select {
+        width: 67%;
+    }
+
+    .user-log i {
+        margin-right: 3px;
+        margin-left: 0;
+    }
+
+    .user-log {
+        border-left: 0px solid #808080;
+    }
+
+    #ab-home {
+        background-image: url(../img/maP.png);
+        background-size: contain;
+    }
+
+    .left-side-text-ab {
+        margin-top: 30px;
+    }
+
+    .ab-slider {
+        margin-top: 60px;
+    }
+
+    #ab-home {
+        padding: 60px 0;
+    }
+
+    .max-live {
+        margin-top: 60px;
+    }
+
+    #tour-des {
+        padding: 60px 0;
+    }
+
+    .content-box {
+        margin-bottom: 20px;
+    }
+
+    #summery {
+        padding: 60px 0;
+    }
+
+    #home-team {
+        padding: 60px 0;
+    }
+
+    #home-testimonial-top {
+        padding: 60px 0 280px 0;
+    }
+
+    .vt-img {
+        margin-top: -254px;
+    }
+
+    #home-testimonial {
+        padding-bottom: 60px;
+    }
+
+    .info-office {
+        display: inherit;
+        margin-top: 20px;
+    }
+
+    .email-deta {
+        margin-top: 15px;
+    }
+
+    .map-inner iframe {
+        height: 87%;
+    }
+
+    .face {
+        margin-right: 3px;
+    }
+
+    .copy-right-para p {
+        font-size: 10px;
+    }
+
+    #footer-all-page {
+        padding: 60px 0;
+    }
+
+    .start-icon-des i {
+        font-size: 14px;
+        margin-right: -1px;
+    }
+
+    #tour-detailes-main {
+        padding: 60px 0;
+    }
+
+    .tour-main-informa h6 {
+        font-size: 12px;
+    }
+
+    #wer-service {
+        padding: 60px 0;
+    }
+
+    .logo-slilder {
+        margin-top: 30px;
+    }
+
+    #gallery-area {
+        padding: 25px 0 60px 0;
+    }
+
+    .tour-heading-detailse h2 {
+        margin: 10px 0;
+        font-size: 28px;
+    }
+
+    .start-icon-deta {
+        margin-top: 0px;
+    }
+
+    #blog-content {
+        padding: 60px 0;
+    }
+
+    #blog-single-main {
+        padding: 60px 0;
+    }
+
+    .blog-single-dd-hed h4 a {
+        font-size: 24px;
+    }
+
+    .box-tes-bl {
+        padding: 30px 65px 30px 121px;
+    }
+
+    .coom-2-client {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .mar-nened {
+        margin-left: 0px;
+    }
+
+    #who-area {
+        padding: 60px 0;
+    }
+
+    .who-img {
+        text-align: center;
+    }
+
+    #best-service {
+        padding: 60px 0;
+    }
+
+    #faqws-area {
+        padding: 60px 0;
+    }
+
+    .contact-heading h2 {
+        font-size: 26px;
+    }
+
+    #contact-main-area {
+        padding-bottom: 60px;
+    }
+
+    #for-page {
+        padding: 100px 0;
+    }
+
+    #nav-tabContent {
+        margin: 15px 15px 0 15px;
+    }
+
+    .flight-cover {
+        margin-right: 15px;
+    }
+
+    .all-span-btn-com {
+        left: 35%;
+    }
+
+    .test-moinal-ing-left img {
+        width: 44% !important;
+        margin: 0 auto;
+        height: 172px;
+    }
+
+    .test-flex p {
+        margin-top: 10px;
+    }
+
+    .all-single-cover {
+        margin-right: 0px;
+    }
+
+    .quick-link-2 {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .login-area {
+        display: none;
+    }
+
+    .left-side-text-ab h6 {
+        font-size: 16px;
+    }
+
+    .mar-p {
+        margin-right: 0;
+    }
+
+    .main-flex-top {
+        justify-content: center;
+        display: flex;
+    }
+
+    .tour-main-informa h6 span {
+        margin-left: 1px;
+    }
+
+    .video-play-test i {
+        font-size: 18px;
+        height: 65px;
+        width: 65px;
+        line-height: 65px;
+    }
+
+    .all-cover-hall {
+        bottom: 60px;
+    }
+
+    .for-egt {
+        margin-top: 30px;
+    }
+
+    .blog-pagination {
+        margin: 35px auto 0 auto;
+    }
+
+    .al-img-at1 p {
+        margin-left: 4px;
+    }
+
+    .packages-includ {
+        margin-top: 30px;
+    }
+
+    .al-img-at2 a i {
+        margin-left: 35px;
+    }
+
+    .inner-tahes ul li {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .inner-tahes {
+        padding: 20px 0;
+    }
+
+    .coomm-2cliebt-hed .dadate-titm {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .sec-who {
+        margin-top: 30px;
+    }
+
+    .all-ineer-der-ter img {
+        padding-top: 39px;
+        width: 88%;
+    }
+
+    .all-item-ter {
+        margin-top: 35px;
+    }
+
+    .card-header h5 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .adserg {
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .banner-text-home h1 {
+        margin-top: 7px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    .video-play-banner i {
+        font-size: 20px;
+        height: 75px;
+        width: 75px;
+        line-height: 75px;
+    }
+
+    .flight-cover i {
+        font-size: 22px;
+    }
+
+    .video-play-btn:before {
+        width: 85px;
+        height: 85px;
+    }
+
+    .face {
+        padding: 3px 4px;
+        font-size: 14px;
+        margin-right: 0px;
+    }
+
+    .no-ag {
+        padding: 4px 7px !important;
+    }
+
+    .revews h6 {
+        margin-top: 0px;
+    }
+
+    h5 {
+        font-size: 20px;
+        line-height: 27px;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        color: #014073;
+        font-weight: bold;
+    }
+
+    .all-ul-includ {
+        display: inherit;
+    }
+
+    .clients-para h6 {
+        line-height: 28px;
+    }
+
+    .client-start-comment {
+        margin-top: 30px;
+        padding: 42px 27px;
+    }
+
+    .all-women-heading h3 {
+        margin-bottom: 18px;
+        font-size: 28px;
+    }
+
+    .service-ads-heading h2 {
+        margin-right: 0px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: #014073;
+        margin: 0;
+        letter-spacing: 0.25px;
+        line-height: 36px;
+    }
+
+    .gift-img img {
+        padding: 2px;
+        width: 89%;
+    }
+
+    .al-img-at2 p {
+        font-size: 11px;
+        margin-left: 4px;
+        margin-top: 14px;
+    }
+
+    .al-img-at1 p {
+        font-size: 11px;
+        margin-left: 5px;
+    }
+
+    .inner-tahes {
+        display: inherit;
+    }
+
+    .all-kal {
+        display: inherit;
+    }
+
+    .alow-rasta {
+        display: inherit;
+    }
+
+    #status {
+        width: 100%;
+        height: 56%;
+        left: 10%;
+        top: 28%;
+    }
+
+    #blog-banner {
+        padding: 90px 0;
+    }
+
+    #about-banner {
+        padding: 90px 0;
+    }
+
+    .commom-sub-heading h6 {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    #faq-banner {
+        padding: 90px 0;
+    }
+
+    #contact-banner {
+        padding: 90px 0;
+    }
+
+    #gallery-banner {
+        padding: 90px 0;
+    }
+
+    #service-main-banner {
+        padding: 90px 0;
+    }
+
+    #tour-packes-deatils {
+        padding: 90px 0;
+    }
+
+    #tour-packes {
+        padding: 90px 0 190px 0;
+    }
+
+    .modal-dialog {
+        max-width: 95%;
+    }
+
+    .modal-body {
+        padding: 35px 20px;
+    }
+
+    .travel-tyepe {
+        display: flex;
+    }
+
+    .check-box-many {
+        display: flex;
+        position: inherit;
+    }
+
+    .check-box-many label {
+        font-size: 11px;
+        margin-left: 15px;
+        margin-right: 18px;
+    }
+
+    .slider-owl {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+
+/*----------------------------------------------
+ 		extra small device
+ * ----------------------------------------------*/
+
+@media (min-width: 320px) and (max-width:360px) {
+    .left-menu-pho {
+        width: 300px;
+        position: relative;
+        right: -31px;
+    }
+
+    #top-heder-nav .navbar-nav {
+        margin-left: 0px;
+        margin: 27px 0 39px 0;
+    }
+
+    #top-heder-nav .nav-item {
+        margin-left: 5px;
+    }
+
+    .content-box p {
+        margin-top: 2px;
+        padding: 0 6%;
+    }
+
+    .video-play-banner {
+        right: 51px;
+        position: absolute;
+        margin-top: 0;
+        top: -75px;
+    }
+
+    .player__video {
+        height: 24%;
+    }
+
+    #top-heder-nav .nav-link {
+        padding: 20px 5px;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        border-top: 1px solid #fff;
+        background: #ff9d341f;
+    }
+
+    #banner-home {
+        padding: 70px 0 215px 0;
+        background-position: top;
+    }
+
+    #ab-home select {
+        padding: 6px 0px 6px 34px;
+        font-size: 14px;
+    }
+
+    #datepicker .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-2 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-3 .form-control {
+        padding: 0 42px;
+    }
+
+    #datepicker-4 .form-control {
+        padding: 0 42px;
+    }
+
+    .grun-img img {
+        width: 100%;
+    }
+
+    .all-service-travel {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .grun-img {
+        top: 48%;
+        left: 26%;
+        width: 37%;
+    }
+
+    .test-heading h2 {
+        margin-right: 0px;
+    }
+
+    .contact-cover {
+        background: linear-gradient(180deg, rgba(43, 42, 117, 0) 0%, rgba(245, 125, 45, 0.88) 0);
+        padding: 40px 10px 40px 10px;
+    }
+
+    .quick-link {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .post-rect-img img {
+        margin-right: 8px;
+    }
+
+    .podt-text-1 p a {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    #home-team .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    #img-nature .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        display: none;
+    }
+
+    .icon-tsdg a i {
+        margin-bottom: 38px;
+    }
+
+    .blog-times p {
+        font-size: 11px;
+        margin-top: 14px;
+        margin-left: 4px;
+    }
+
+    .pagination>li>a,
+    .pagination>li>span {
+        font-size: 11px;
+        padding: 6px 12px;
+        margin-left: 5px;
+    }
+
+    .blog-athou-img p {
+        font-size: 11px;
+    }
+
+    .alo-blog-clss-text {
+        margin-left: 5px;
+    }
+
+    .podt-text-1 span {
+        font-size: 12px;
+        color: #ff9d33;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .blog-clss-img img {
+        width: 100%;
+    }
+
+    .alo-blog-clss-text h6 a {
+        font-size: 13px;
+        line-height: 22px;
+        color: #a6a6a6;
+    }
+
+    .alo-blog-clss-text h6 {
+        line-height: 13px;
+        ;
+    }
+
+    .alo-blog-clss-text p {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+
+    .catago-item a {
+        padding: 7px 15px;
+        margin-right: 9px;
+    }
+
+    .all-clien-sayt {
+        margin-top: 30px;
+    }
+
+    .lave-cooment {
+        margin-top: 0;
+    }
+
+    .leav-form {
+        margin-top: 10px;
+    }
+
+    .form-for-btn {
+        margin-top: 40px;
+    }
+
+    .who-img img {
+        width: 75%;
+    }
+
+    .left-op {
+        margin-right: -9px;
+    }
+
+    .left-menu-pho {
+        display: none;
+    }
+
+    #ab-home .nav-fill {
+        width: 80%;
+    }
+
+    .booking-info {
+        margin-bottom: 25px;
+    }
+
+    .amz-img img {
+        width: 100%;
+        display: none;
+    }
+
+    #amazing {
+        padding: 60px 0 60px 0;
+        background-position: right;
+    }
+
+    .team-contact {
+        left: 35px;
+        top: 26%;
+    }
+
+    .coa-app img {
+        margin-bottom: 30px;
+    }
+
+    .video-play-test {
+        top: -204px;
+        left: 32%;
+    }
+
+    .content-box h2 {
+        margin-top: 5px;
+        padding: 0 20px;
+    }
+
+    .vt-img img {
+        height: 190px;
+    }
+
+    .test-slider-home-1 {
+        margin-top: 0;
+    }
+
+    #home-testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+        right: 2px;
+        top: 380px;
+    }
+
+    .mar-top-responsive {
+        margin-top: 30px;
+    }
+
+    .bookoing-secrty {
+        margin-top: 40px;
+    }
+
+    .ser-ab-deta {
+        padding-top: 0;
+    }
+
+    .ersd-2 {
+        margin-top: 50px;
+    }
+
+    .oiuytr {
+        padding-top: 0 !important;
+    }
+
+    .icon-tsdg h6 {
+        margin-left: 9px;
+    }
+
+    .gall-overlay {
+        background: linear-gradient(189deg, rgba(245, 125, 45, 0.88) 29%, rgba(245, 125, 45, 0.88) 29%);
+    }
+
+    .blog-item-img img {
+        transition: 1.6s;
+        width: 100%;
+    }
+
+    .maj {
+        margin-top: 30px;
+    }
+
+    .inteagram-img a img {
+        margin: 3px 1px;
+        width: 15%;
+    }
+
+    .alo-search {
+        margin-top: 40px;
+    }
+
+    .who-box {
+        margin-top: 25px;
+    }
+
+    .best-service-heading h2 {
+        padding: 0 0;
+    }
+
+    .best-service-heading p {
+        padding: 0px 0%;
+    }
+
+    .adress-cover-main {
+        padding: 0px;
+    }
+
+    .contact-3-cover {
+        margin-right: 0px;
+    }
+
+    .all-dfkj:after {
+        position: inherit;
+    }
+
+    .for-img img {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    .main-email-text p {
+        font-size: 11px;
+        margin-right: 15px;
+    }
+
+    .main-loc-text p {
+        font-size: 11px;
+    }
+
+    .main-loc-text i {
+        margin-right: 8px;
+        margin-left: 11px;
+    }
+
+    .header-most-top select {
+        width: 67%;
+    }
+
+    .user-log i {
+        margin-right: 3px;
+        margin-left: 0;
+    }
+
+    .user-log {
+        border-left: 0px solid #808080;
+    }
+
+    #ab-home {
+        background-image: url(../img/maP.png);
+        background-size: contain;
+    }
+
+    .left-side-text-ab {
+        margin-top: 0px;
+    }
+
+    .ab-slider {
+        margin-top: 60px;
+    }
+
+    #ab-home {
+        padding: 60px 0;
+    }
+
+    .max-live {
+        margin-top: 60px;
+    }
+
+    #tour-des {
+        padding: 60px 0;
+    }
+
+    .content-box {
+        margin-bottom: 20px;
+    }
+
+    #summery {
+        padding: 60px 0;
+    }
+
+    #home-team {
+        padding: 60px 0;
+    }
+
+    #home-testimonial-top {
+        padding: 60px 0 280px 0;
+    }
+
+    .vt-img {
+        margin-top: -254px;
+    }
+
+    #home-testimonial {
+        padding-bottom: 60px;
+    }
+
+    .info-office {
+        display: inherit;
+        margin-top: 20px;
+    }
+
+    .email-deta {
+        margin-top: 15px;
+    }
+
+    .map-inner iframe {
+        height: 87%;
+    }
+
+    .face {
+        margin-right: 3px;
+    }
+
+    .copy-right-para p {
+        font-size: 9px;
+    }
+
+    #footer-all-page {
+        padding: 60px 0;
+    }
+
+    .start-icon-des i {
+        font-size: 14px;
+        margin-right: -1px;
+    }
+
+    #tour-detailes-main {
+        padding: 60px 0;
+    }
+
+    .tour-main-informa h6 {
+        font-size: 10px;
+    }
+
+    #wer-service {
+        padding: 60px 0;
+    }
+
+    .logo-slilder {
+        margin-top: 30px;
+    }
+
+    #gallery-area {
+        padding: 25px 0 60px 0;
+    }
+
+    .tour-heading-detailse h2 {
+        margin: 10px 0;
+        font-size: 27px;
+    }
+
+    .start-icon-deta {
+        margin-top: 0px;
+    }
+
+    #blog-content {
+        padding: 60px 0;
+    }
+
+    #blog-single-main {
+        padding: 60px 0;
+    }
+
+    .blog-single-dd-hed h4 a {
+        font-size: 24px;
+    }
+
+    .box-tes-bl {
+        padding: 69px 20px 30px 53px;
+    }
+
+    .coom-2-client {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .mar-nened {
+        margin-left: 0px;
+    }
+
+    #who-area {
+        padding: 60px 0;
+    }
+
+    .who-img {
+        text-align: center;
+    }
+
+    #best-service {
+        padding: 60px 0;
+    }
+
+    #faqws-area {
+        padding: 60px 0;
+    }
+
+    .contact-heading h2 {
+        font-size: 26px;
+    }
+
+    #contact-main-area {
+        padding-bottom: 60px;
+    }
+
+    .det-client-chart a i {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+    #for-page {
+        padding: 100px 0;
+    }
+
+    .rweal-reat p {
+        margin-top: 6px;
+    }
+
+    #nav-tabContent {
+        margin: 15px 0px 0 0px;
+    }
+
+    .bugest-info span {
+        font-size: 17px;
+    }
+
+    .flight-cover {
+        margin-right: 15px;
+    }
+
+    .all-span-btn-com {
+        left: 25%;
+    }
+
+    .test-moinal-ing-left img {
+        width: 72% !important;
+        margin: 0 auto;
+        height: 215px;
+    }
+
+    .test-flex p {
+        margin-top: 10px;
+    }
+
+    .quick-link-2 {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .login-area {
+        display: none;
+    }
+
+    .left-side-text-ab h6 {
+        font-size: 15px;
+    }
+
+    .mar-p {
+        margin-right: 0;
+    }
+
+    .main-flex-top {
+        justify-content: center;
+        display: flex;
+    }
+
+    .tour-main-informa h6 span {
+        margin-left: 4px;
+    }
+
+    .video-play-test i {
+        font-size: 18px;
+        height: 65px;
+        width: 65px;
+        line-height: 65px;
+    }
+
+    .all-cover-hall {
+        bottom: 60px;
+    }
+
+    .for-egt {
+        margin-top: 30px;
+    }
+
+    .blog-pagination {
+        margin: 35px auto 0 auto;
+    }
+
+    .al-img-at1 p {
+        margin-left: 4px;
+    }
+
+    .packages-includ {
+        margin-top: 30px;
+    }
+
+    .al-img-at2 a i {
+        margin-left: 10px;
+    }
+
+    .inner-tahes ul li {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+
+    .inner-tahes {
+        padding: 20px 0;
+    }
+
+    .coomm-2cliebt-hed .dadate-titm {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .sec-who {
+        margin-top: 30px;
+    }
+
+    .all-ineer-der-ter img {
+        padding-top: 39px;
+        width: 88%;
+    }
+
+    .all-item-ter {
+        margin-top: 35px;
+    }
+
+    .card-header h5 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .adserg {
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .banner-text-home p {
+        color: #fff;
+        margin-top: 5px;
+    }
+
+    .banner-text-home h1 {
+        margin-top: 7px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    .video-play-banner i {
+        font-size: 17px;
+        height: 65px;
+        width: 65px;
+        line-height: 65px;
+    }
+
+    .flight-cover i {
+        font-size: 22px;
+    }
+
+    .video-play-btn:before {
+        width: 70px;
+        height: 70px;
+        top: 49%;
+    }
+
+    .face {
+        padding: 3px 2px;
+        font-size: 14px;
+        margin-right: 0px;
+    }
+
+    .no-ag {
+        padding: 4px 7px !important;
+    }
+
+    .revews h6 {
+        margin-top: 0px;
+    }
+
+    h5 {
+        font-size: 18px;
+        line-height: 27px;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        color: #014073;
+        font-weight: bold;
+    }
+
+    .all-ul-includ {
+        display: inherit;
+    }
+
+    .clients-para h6 {
+        line-height: 28px;
+    }
+
+    .client-start-comment {
+        margin-top: 30px;
+        padding: 42px 27px;
+    }
+
+    .all-women-heading h3 {
+        margin-bottom: 18px;
+        font-size: 28px;
+    }
+
+    .service-ads-heading h2 {
+        margin-right: 0px;
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: #014073;
+        margin: 0;
+        letter-spacing: 0.25px;
+        line-height: 36px;
+    }
+
+    .gift-img img {
+        padding: 2px;
+        width: 89%;
+    }
+
+    .al-img-at2 p {
+        font-size: 11px;
+        margin-left: 4px;
+        margin-top: 14px;
+    }
+
+    .al-img-at1 p {
+        font-size: 11px;
+        margin-left: 5px;
+    }
+
+    .inner-tahes {
+        display: inherit;
+    }
+
+    .all-kal {
+        display: inherit;
+    }
+
+    .alow-rasta {
+        display: inherit;
+    }
+
+    #status {
+        width: 93%;
+        height: 51%;
+        left: 2%;
+        top: 28%;
+    }
+
+    #blog-banner {
+        padding: 90px 0;
+    }
+
+    #about-banner {
+        padding: 90px 0;
+    }
+
+    .commom-sub-heading h6 {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    #faq-banner {
+        padding: 90px 0;
+    }
+
+    #contact-banner {
+        padding: 90px 0;
+    }
+
+    #gallery-banner {
+        padding: 90px 0;
+    }
+
+    #service-main-banner {
+        padding: 90px 0;
+    }
+
+    #tour-packes-deatils {
+        padding: 90px 0;
+    }
+
+    #tour-packes {
+        padding: 90px 0 190px 0;
+    }
+
+    .right-includ ul li {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .clients-desnigation {
+        margin-left: 12px;
+    }
+
+    .clients-desnigation h6 {
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .clients-para p {
+        margin-top: 5px;
+    }
+
+    .services-pata p {
+        margin-top: 10px;
+    }
+
+    .lave-tree-form {
+        display: inherit;
+    }
+
+    .email-fred {
+        margin: 0 0px;
+    }
+
+    .leav-form label {
+        margin-bottom: 6px;
+        margin-top: 10px;
+    }
+
+    .res-raju {
+        margin-top: 30px;
+    }
+
+    .mar-top {
+        margin-top: 25px;
+    }
+
+    .who-headinf-inner h2 {
+        margin-bottom: 5px;
+    }
+
+    .who-headinf-inner p {
+        padding-top: 1px;
+    }
+
+    .des-ter h6 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .all-dfkj {
+        padding: 40px 20px;
+    }
+
+    .for-text-btn {
+        margin-top: 50px;
+    }
+
+    .modal-dialog {
+        max-width: 90%;
+        margin: 1.75rem auto;
+    }
+
+    .modal-body {
+        padding: 35px 20px;
+    }
+
+    .model-details h5 {
+        font-size: 23px;
+    }
+
+    .travel-tyepe {
+        display: flex;
+    }
+
+    .check-box-many {
+        left: 19px;
+    }
+
+    .check-box-many label {
+        font-size: 12px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .client-info-rev {
+        display: inherit;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .cliennt-img img {
+        margin-bottom: 20px;
+    }
+
+    .slider-owl {
+        width: 100%;
+    }
+
+    .all-price {
+        display: inherit;
+    }
+
+    .price-tour h2 {
+        font-size: 40px;
+        text-align: inherit;
+        line-height: 80px;
+    }
+
+    .tour-main-informa {
+        margin-top: 0px;
+    }
+}
