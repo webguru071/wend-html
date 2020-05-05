@@ -272,6 +272,8 @@ $(document).ready(function () {
 
 
 
+
+
     //Client Testimonial Carousel
     if (
         $(".client-testimonial-carousel").length &&
@@ -425,5 +427,9 @@ $(document).ready(function () {
         }
     });
 
+
+
+
+    // --home page 04 testimonial plagen
 
 });

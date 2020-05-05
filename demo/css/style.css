@@ -4663,8 +4663,6 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       padding: 100px 0;
   }
 
-  .banner-area-social-list {}
-
   .banner-area-social-list ul li {
       margin-bottom: 20px;
   }
@@ -5016,13 +5014,9 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       background-size: cover;
   }
 
-  .testmoinal-area-four-text {}
-
   .text-test-heading-area {
       padding-right: 140px;
   }
-
-  .text-test-heading-area h6 {}
 
   .text-test-heading-area h2 {
       padding-top: 20px;
@@ -5039,8 +5033,6 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
   .testimonial-four-item {
       position: relative;
   }
-
-  .testimonial-four-item p {}
 
   .testimonial-four-item h6 {
       padding-top: 40px;
@@ -5078,8 +5070,6 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       width: 100px;
   }
 
-  .client-img-area {}
-
   .client-img-area ul {
       display: flex;
       flex-wrap: wrap;
@@ -5094,7 +5084,9 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       cursor: pointer;
   }
 
-
+  .t-active {
+      box-shadow: 2px 3px 12px #ff9d34;
+  }
 
 
   /* news letter arae */
