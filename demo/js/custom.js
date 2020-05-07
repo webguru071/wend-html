@@ -268,12 +268,6 @@ $(document).ready(function () {
         }
     });
 
-
-
-
-
-
-
     //Client Testimonial Carousel
     if (
         $(".client-testimonial-carousel").length &&
@@ -357,6 +351,30 @@ $(document).ready(function () {
     }
 
 
+    $('.destination-slider-area').owlCarousel({
+        loop: true,
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
 
 
 
@@ -430,6 +448,7 @@ $(document).ready(function () {
 
 
 
-    // --home page 04 testimonial plagen
+    // --home page 06 destinatio slider
+
 
 });

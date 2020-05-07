@@ -5239,26 +5239,202 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
 
   #search-box-area {}
 
-  #search-box-area-redesign {}
+  .search-box-area-redesign {
+      box-shadow: 0px 0px 30px -14px #000;
+      border-radius: 10px;
+      margin-top: -70px;
+      background: #fff;
+  }
 
-  #form-redesign {}
+  #search-box-area form {
+      display: flex;
+  }
 
-  form {}
+  #search-box-area .input-group .form-control {
+      height: 40px;
+      padding: 0px;
+  }
 
-  .form-flex-area {}
+  #search-box-area form input {
+      background: transparent;
+      border: none;
+      font-family: 'Lato', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+  }
 
-  .form-flex-area label {}
+  #search-box-area form input::placeholder {
+      color: #ff9d34;
+  }
 
-  .form-flex-area i {}
+  #search-box-area form input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #ff9d34;
+  }
 
-  .area-form-wrapper {}
+  #search-box-area form input::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #ff9d34;
+  }
 
-  .area-box-select {}
+  .area-form-wrapper {
+      display: flex;
+  }
 
-  .area-box-select select {}
+  #datepicker-one,
+  #datepicker-two {
+      width: 60%;
+  }
+
+  .form-flex-area {
+      padding: 40px;
+      border-right: 1px solid #cccccc;
+      width: 25%;
+  }
+
+  .form-flex-area label {
+      font-size: 14px;
+      color: #014073;
+      font-weight: 600;
+      margin-left: 0;
+
+  }
+
+  .form-flex-area i {
+      padding-right: 8px;
+
+  }
+
+  .area-box-select select {
+      font-size: 14px;
+      background: transparent;
+      padding: 10px 0;
+      color: #ff9d34;
+      width: 20%;
+  }
+
+  .area-box-select i {
+      color: #ff9d34;
+  }
+
+  .button-area-form-box {
+      width: 32%;
+      background: #ff9d34;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      transition: .4s all;
+      -webkit-transition: .4s all;
+      -moz-transition: .4s all;
+      -ms-transition: .4s all;
+      -o-transition: .4s all;
+  }
+
+  .button-area-form-box:hover {
+      background-color: #014073;
+  }
+
+  .button-area-form-box a {
+      color: #fff;
+      font-size: 16px;
+  }
+
+  .button-area-form-box a i {
+      color: #fff;
+      padding-right: 5px;
+  }
 
   /* -- select your destination -- */
 
   #select-destination-six {
       padding: 100px 0;
+  }
+
+  .destnation-img-box {
+      overflow: hidden;
+  }
+
+  .destnation-img-box a img {
+      transition: .4s all;
+      -webkit-transition: .4s all;
+      -moz-transition: .4s all;
+      -ms-transition: .4s all;
+      -o-transition: .4s all;
+  }
+
+  .destnation-img-box a img:hover {
+      transform: scale(1.1);
+      opacity: .9;
+  }
+
+  .destnation-details-box {
+      background: #fff;
+      margin: 0 20px;
+      padding: 10px 17px;
+      box-shadow: 0px 0px 15px -7px #014073;
+      margin-top: -55px;
+      position: relative;
+  }
+
+  .top-destinatio-icon-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .icon-destination i {
+      color: #ff9d34;
+  }
+
+  .offer-area p {
+      font-size: 16px;
+      font-weight: 700;
+      color: #ff9d34;
+  }
+
+  .destination-area-name h3 {
+      padding-top: 10px;
+  }
+
+  .destination-area-name h3 a {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: .4px;
+      color: #272063;
+      transition: .4s all;
+      -webkit-transition: .4s all;
+      -moz-transition: .4s all;
+      -ms-transition: .4s all;
+      -o-transition: .4s all;
+  }
+
+  .destnation-details-box:hover .destination-area-name h3 a {
+      color: #ff9d34;
+  }
+
+  .destnation-box-area {
+      margin: 20px;
+  }
+
+
+  #select-destination-six .owl-theme .owl-dots .owl-dot.active span {
+      background: #014073;
+  }
+
+  #select-destination-six .owl-theme .owl-dots .owl-dot span {
+      width: 18px;
+      height: 18px;
+      margin: 5px 7px;
+      background: #ff9d34;
+  }
+
+  #select-destination-six .owl-theme .owl-dots .owl-dot:hover span {
+      background: #014073;
+  }
+
+  #select-destination-six .owl-theme .owl-nav.disabled+.owl-dots {
+      margin-top: 40px;
   }

@@ -64,9 +64,9 @@
 
 <body>
     <!-- preloader start-->
-    <div id="preloader">
+    <!-- <div id="preloader">
         <div id="status">&nbsp;</div>
-    </div>
+    </div> -->
     <!-- preloader End-->
     <!-- top header-->
     <div class="header-most-top">
@@ -217,17 +217,16 @@
                                 <div class="form-flex-area">
                                     <label><i class="fas fa-map-marker-alt"></i> Destination</label>
                                     <input type="text" class="form-control" placeholder="Where are you going?">
-
                                 </div>
                                 <div class="form-flex-area">
                                     <label><i class="fas fa-calendar-alt"></i> From - To</label>
                                     <div class="area-form-wrapper">
-                                        <div id="datepicker-3" class="input-group date" data-date-format="mm-dd-yyyy">
-                                            <input class="form-control" type="text" placeholder="Check In">
+                                        <div id="datepicker-one" class="input-group date" data-date-format="mm-dd-yyyy">
+                                            <input class="form-control" type="text" placeholder="dd/mm/yyyy -">
                                             <span class="input-group-addon sec-po">
                                         </div>
-                                        <div id="datepicker-3" class="input-group date" data-date-format="mm-dd-yyyy">
-                                            <input class="form-control" type="text" placeholder="Check In">
+                                        <div id="datepicker-two" class="input-group date" data-date-format="mm-dd-yyyy">
+                                            <input class="form-control" type="text" placeholder="dd/mm/yyyy">
                                             <span class="input-group-addon sec-po">
                                         </div>
                                     </div>
@@ -236,14 +235,16 @@
                                     <label>Advance Options</label>
                                     <div class="area-box-select">
                                         <select>
-                                            <option value="0"> Destination</option>
-                                            <option value="1">Audi</option>
-                                            <option value="2">BMW</option>
-                                            <option value="3">Citroen</option>
+                                            <option value="0">More</option>
+                                            <option value="1">Group</option>
+                                            <option value="2">Single</option>
+                                            <option value="3">Family</option>
                                         </select>
                                         <i class="fas fa-angle-down mark-box"></i>
                                     </div>
-
+                                </div>
+                                <div class="button-area-form-box">
+                                    <a href="#!"><i class="fas fa-search"></i> Search</a>
                                 </div>
 
                             </form>
@@ -266,9 +267,96 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="row">
-                    <div class="col-lg-4">
-
+                <div class="col-lg-12">
+                    <div class="destination-slider-area owl-carousel owl-theme">
+                        <div class="destnation-box-area">
+                            <div class="destnation-img-box">
+                                <a href="#!"><img src="img/d-1.png" alt="img"></a>
+                            </div>
+                            <div class="destnation-details-box">
+                                <div class="top-destinatio-icon-box">
+                                    <div class="icon-destination">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="offer-area">
+                                        <p>3 day 360$</p>
+                                    </div>
+                                </div>
+                                <div class="destination-area-name">
+                                    <h3><a href="#!">Thailand</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destnation-box-area">
+                            <div class="destnation-img-box">
+                                <a href="#!"><img src="img/d-2.png" alt="img"></a>
+                            </div>
+                            <div class="destnation-details-box">
+                                <div class="top-destinatio-icon-box">
+                                    <div class="icon-destination">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="offer-area">
+                                        <p>3 day 360$</p>
+                                    </div>
+                                </div>
+                                <div class="destination-area-name">
+                                    <h3><a href="#!">Bhutan</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destnation-box-area">
+                            <div class="destnation-img-box">
+                                <a href="#!"><img src="img/d-3.png" alt="img"></a>
+                            </div>
+                            <div class="destnation-details-box">
+                                <div class="top-destinatio-icon-box">
+                                    <div class="icon-destination">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="offer-area">
+                                        <p>3 day 360$</p>
+                                    </div>
+                                </div>
+                                <div class="destination-area-name">
+                                    <h3><a href="#!">Australia</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destnation-box-area">
+                            <div class="destnation-img-box">
+                                <a href="#!"><img src="img/d-4.png" alt="img"></a>
+                            </div>
+                            <div class="destnation-details-box">
+                                <div class="top-destinatio-icon-box">
+                                    <div class="icon-destination">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="offer-area">
+                                        <p>3 day 360$</p>
+                                    </div>
+                                </div>
+                                <div class="destination-area-name">
+                                    <h3><a href="#!">South Africa</a></h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
