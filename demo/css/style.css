@@ -1105,8 +1105,6 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       background: #fff;
   }
 
-  .left-side-text-ab h6 {}
-
   .left-side-text-ab h2 {
       margin-top: 10px;
   }
@@ -1116,7 +1114,7 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
   }
 
   .left-side-text-ab p {
-      margin-top: 2px;
+      margin-top: 15px;
   }
 
   .left-side-text-ab {
@@ -5235,3 +5233,32 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
   /*----------------------------
    Home Page 6
 --------------------------------*/
+
+
+  /* --search-box-area-- */
+
+  #search-box-area {}
+
+  #search-box-area-redesign {}
+
+  #form-redesign {}
+
+  form {}
+
+  .form-flex-area {}
+
+  .form-flex-area label {}
+
+  .form-flex-area i {}
+
+  .area-form-wrapper {}
+
+  .area-box-select {}
+
+  .area-box-select select {}
+
+  /* -- select your destination -- */
+
+  #select-destination-six {
+      padding: 100px 0;
+  }
