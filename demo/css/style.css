@@ -188,7 +188,7 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
   }
 
   .content-box p {
-      margin-top: 2px;
+      margin-top: 10px;
       padding: 0 32%;
   }
 
@@ -5437,4 +5437,103 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
 
   #select-destination-six .owl-theme .owl-nav.disabled+.owl-dots {
       margin-top: 40px;
+  }
+
+
+  /* --Perfect Destination -- */
+  #perfect-destination {
+      padding: 100px 0;
+  }
+
+  .perfect-box-area {
+      margin: 25px 25px;
+  }
+
+  .perfect-box-img {
+      overflow: hidden;
+  }
+
+  .perfect-box-img a img {
+      width: 100%;
+      transition: .4s all;
+      -webkit-transition: .4s all;
+      -moz-transition: .4s all;
+      -ms-transition: .4s all;
+      -o-transition: .4s all;
+  }
+
+  .perfect-box-img a img:hover {
+      transform: scale(1.1);
+      opacity: .9;
+  }
+
+  .perfect-box-details {
+      box-shadow: 0px 0px 16px -7px #014073;
+  }
+
+  .perfect-top-details {
+      display: flex;
+      justify-content: space-between;
+      background: #fff;
+      margin: 0 20px;
+      margin-top: -20px;
+      position: relative;
+      padding: 15px 10px;
+
+  }
+
+  .perfect-area-location {}
+
+  .perfect-area-location p {
+      font-size: 16px;
+      font-weight: 700;
+  }
+
+  .perfect-area-location p i {
+      color: #014073;
+      padding-right: 5px;
+  }
+
+  .perfect-area-calende {}
+
+  .perfect-area-calender p {
+      font-size: 16px;
+      font-weight: 700;
+  }
+
+  .perfect-area-calender p i {
+      color: #014073;
+      padding-right: 5px;
+  }
+
+  .perfect-details-text {
+      padding: 9px 15px 20px 15px;
+  }
+
+  .perfect-details-text h6 {
+      padding-top: 10px;
+  }
+
+  .perfect-details-text h6 a {
+      font-weight: 600;
+  }
+
+  .perfect-details-text p {
+      font-size: 16px;
+      line-height: 24px;
+      padding-top: 15px;
+  }
+
+  .book-area-icon {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+  }
+
+  .perfect-book-button {}
+
+  .perfect-book-star i {
+      color: #ff9d34;
+      padding-right: 3px;
   }
