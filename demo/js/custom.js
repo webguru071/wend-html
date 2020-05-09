@@ -400,6 +400,31 @@ $(document).ready(function () {
             }
         }
     });
+    $('.testimonials-six-wrapper').owlCarousel({
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 2
+            }
+        }
+    });
+
 
 
 
