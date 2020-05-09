@@ -5482,8 +5482,6 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
 
   }
 
-  .perfect-area-location {}
-
   .perfect-area-location p {
       font-size: 16px;
       font-weight: 700;
@@ -5493,8 +5491,6 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       color: #014073;
       padding-right: 5px;
   }
-
-  .perfect-area-calende {}
 
   .perfect-area-calender p {
       font-size: 16px;
@@ -5531,9 +5527,14 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
       margin-top: 30px;
   }
 
-  .perfect-book-button {}
-
   .perfect-book-star i {
       color: #ff9d34;
       padding-right: 3px;
+  }
+
+  /* --video area-- */
+
+  #video-area-motion {
+      position: relative;
+      padding: 0 0 100px 0;
   }
