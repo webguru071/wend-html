@@ -29,34 +29,34 @@
  	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
  	<meta name="theme-color" content="#ffffff">
  	<!-- Bootstrap-->
- 	<link rel="stylesheet" href="css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
  	<!--magnific-popup.cs-->
- 	<link rel="stylesheet" href="css/magnific-popup.css">
+ 	<link rel="stylesheet" href="assets/css/magnific-popup.css">
  	<!--owl css-->
- 	<link rel="stylesheet" href="css/owl.carousel.min.css">
- 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+ 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+ 	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
  	<!--	normalize css-->
- 	<link rel="stylesheet" href="css/normalize.css">
+ 	<link rel="stylesheet" href="assets/css/normalize.css">
+ 	<!--	flacticon css-->
+ 	<link rel="stylesheet" href="assets/font/flaticon.css">
  	<!--	animate css-->
- 	<link rel="stylesheet" href="css/animate.css">
+ 	<link rel="stylesheet" href="assets/css/animate.css">
 
+ 	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
+ 		type="text/css" />
  	<!--Fontawesom -->
- 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
- 		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
- 	<!--Font Famely-->
+ 	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
  	<!--Poppins-->
  	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
  		rel="stylesheet">
-
  	<!--Lato-->
  	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
  	<!-- style.css-->
- 	<link rel="stylesheet" href="css/style.css">
+ 	<link rel="stylesheet" href="assets/css/style.css">
+ 	<!-- menu.css-->
+ 	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
  	<!-- responsive.css-->
- 	<link rel="stylesheet" href="css/responsive.css">
-
-
-
+ 	<link rel="stylesheet" href="assets/css/responsive.css">
  </head>
 
  <body>
@@ -107,73 +107,82 @@
  	<!-- top header end-->
 
  	<!-- navber start-->
- 	<header id="top-heder-nav">
- 		<nav class="navbar navbar-expand-lg" data-toggle="sticky-onscroll">
+ 	<header class="site-header header-style-one">
+ 		<div class="site-navigation style-one">
  			<div class="container">
- 				<a class="navbar-brand" href="index.html">
- 					<img src="img/logo.png" alt="">
- 				</a>
- 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
- 					aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
- 					<span><i class="fas fa-bars"></i></span>
- 				</button>
- 				<div class="collapse navbar-collapse" id="navbarResponsive">
- 					<ul class="navbar-nav">
- 						<li class="nav-item dropdown">
- 							<a class="nav-link" href="#">Home</a>
- 							<div class="dropdown-content">
- 								<a href="index.html">Home 01</a>
- 								<a href="index-2.html">Home 02</a>
- 								<a href="index-3.html">Home 03</a>
- 								<a href="index-4.html">Home 04</a>
+ 				<div class="row align-items-center">
+ 					<div class="col-12">
+ 						<div class="navbar navbar-expand-lg navigation-area">
+ 							<div class="site-branding">
+ 								<a class="site-logo" href="index.html">
+ 									<img src="img/logo.png" alt="Site Logo" />
+ 								</a>
  							</div>
- 						</li>
- 						<li class="nav-item dropdown">
- 							<a class="nav-link " href="#">Trip Package</a>
-
- 							<div class="dropdown-content">
- 								<a href="tour-packages.html">Tour-Packages</a>
- 								<a href="tour-details.html">Tour-Details</a>
+ 							<div class="mainmenu-area">
+ 								<nav class="menu">
+ 									<ul id="nav">
+ 										<li class="dropdown-trigger">
+ 											<a href="#">Home</a>
+ 											<ul class="dropdown-content">
+ 												<li><a href="index.html">Home one</a></li>
+ 												<li><a href="index-2.html">Home two</a></li>
+ 												<li><a href="index-3.html">Home three</a></li>
+ 												<li><a href="index-4.html">Home four</a></li>
+ 												<li><a href="index-5.html">Home five</a></li>
+ 												<li><a href="index-6.html">Home six</a></li>
+ 											</ul>
+ 										</li>
+ 										<li class="dropdown-trigger">
+ 											<a href="#">Trip Package</a>
+ 											<ul class="dropdown-content">
+ 												<li><a href="tour-packages.html">Tour-Packages</a></li>
+ 												<li><a href="tour-details.html">Tour-Details</a></li>
+ 											</ul>
+ 										</li>
+ 										<li>
+ 											<a href="service.html" class="active">Service</a>
+ 										</li>
+ 										<li>
+ 											<a href="gallery.html">Gallery</a>
+ 										</li>
+ 										<li class="dropdown-trigger">
+ 											<a href="#">Blog</a>
+ 											<ul class="dropdown-content">
+ 												<li><a href="blog.html">Blog-Classic</a></li>
+ 												<li><a href="blog-single.html">Blog Single</a></li>
+ 											</ul>
+ 										</li>
+ 										<li class="dropdown-trigger">
+ 											<a href="#">Page</a>
+ 											<ul class="dropdown-content">
+ 												<li><a href="about.html">About</a></li>
+ 												<li><a href="faq.html">Faqs</a></li>
+ 												<li><a href="contact.html">Contact</a></li>
+ 												<li><a href="404.html">404 page</a></li>
+ 											</ul>
+ 										</li>
+ 									</ul>
+ 								</nav>
  							</div>
- 						</li>
- 						<li class="nav-item">
- 							<a class="nav-link active" href="service.html">Services</a>
- 						</li>
- 						<li class="nav-item">
- 							<a class="nav-link" href="gallery.html">Gallery </a>
-
- 						</li>
- 						<li class="nav-item dropdown">
- 							<a class="nav-link" href="#">Blog</a>
-
- 							<div class="dropdown-content">
- 								<a href="blog.html">Blog-Classic</a>
- 								<a href="blog-single.html">Blog-single</a>
- 							</div>
- 						</li>
- 						<li class="nav-item dropdown">
- 							<a class="nav-link" href="#">Pages</a>
-
- 							<div class="dropdown-content">
- 								<a href="about.html">About</a>
- 								<a href="faq.html">Faqs</a>
- 								<a href="contact.html">Contact</a>
- 								<a href="404.html">404 page</a>
- 							</div>
- 						</li>
- 					</ul>
- 				</div>
- 				<div class="left-menu-pho">
- 					<div class="icon-phon-men">
- 						<i class="fas fa-phone-volume"></i>
- 					</div>
- 					<div class="phone-number-idel">
- 						<h6><a href="tel:01994992011">1-1235-536-5896</a></h6>
- 						<p>Toll Free & 24/7 Available</p>
+ 						</div>
  					</div>
  				</div>
  			</div>
- 		</nav>
+ 		</div>
+
+ 		<div class="mobile-menu-area">
+ 			<div class="container">
+ 				<div class="row">
+ 					<div class="col-12">
+ 						<div class="mobile-menu">
+ 							<a class="mobile-logo" href="index.html">
+ 								<img src="img/logo.png" alt="logo" />
+ 							</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
  	</header>
  	<!-- navber end-->
  	<!-- service-banner start-->
@@ -554,38 +563,41 @@
  	</div>
  	<!-- footer end-->
 
-
-
  	<!-- Main js -->
- 	<script src="js/jquery-3.3.1.min.js"></script>
+ 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 
  	<!-- Bootstrap-->
- 	<script src="js/bootstrap.min.js"></script>
-
- 	<!-- html5shiv-->
- 	<script src="js/html5shiv.js"></script>
-
- 	<!-- respondl-->
- 	<script src="js/respond.min.js"></script>
-
- 	<!-- prettifyl-->
- 	<script src="js/prettify.js"></script>
+ 	<script src="assets/js/bootstrap.min.js"></script>
 
  	<!-- owl.carousel-->
- 	<script src="js/owl.carousel.min.js"></script>
+ 	<script src="assets/js/owl.carousel.min.js"></script>
 
- 	<!-- Wow-->
- 	<script src="js/wow.min.js"></script>
+ 	<!-- wow.min-->
+ 	<script src="assets/js/wow.min.js"></script>
 
- 	<!-- magnify-popup-->
- 	<script src="js/magnify-popup.js"></script>
+ 	<!-- html5shiv-->
+ 	<script src="assets/js/html5shiv.js"></script>
+
+ 	<!-- respondl-->
+ 	<script src="assets/js/respond.min.js"></script>
+
+ 	<!-- prettifyl-->
+ 	<script src="assets/js/prettify.js"></script>
+
+ 	<!-- meanu-->
+ 	<script src="assets/js/meanmenu.min.js"></script>
+
+ 	<!-- popper js-->
+ 	<script src="assets/js/popper.min.js"></script>
+
+ 	<!-- menu js-->
+ 	<script src="assets/js/menu-custom.js"></script>
 
  	<!--bootstrap-datepicker-->
- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js">
- 	</script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
 
  	<!-- custom-->
- 	<script src="js/custom.js"></script>
+ 	<script src="assets/js/custom.js"></script>
 
  	<script>
  		$(".overay-nutre").magnificPopup({
