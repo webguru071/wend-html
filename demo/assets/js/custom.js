@@ -105,6 +105,7 @@ $(document).ready(function () {
     $('.all-logo').owlCarousel({
         loop: true,
         margin: 20,
+        dots: false,
         navText: ["<i class='fas fa-arrow-left'></i>", "<i class=' fas fa-arrow-right' ></i>"],
         responsive: {
             0: {
@@ -114,7 +115,7 @@ $(document).ready(function () {
                 items: 3
             },
             600: {
-                items: 4
+                items: 3
             },
             1000: {
                 items: 6
@@ -126,6 +127,7 @@ $(document).ready(function () {
     $('.img-nature-slider').owlCarousel({
         loop: true,
         margin: 0,
+        dots: false,
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
@@ -139,7 +141,10 @@ $(document).ready(function () {
                 items: 2
             },
             600: {
-                items: 4
+                items: 2
+            },
+            768: {
+                items: 3
             },
             1000: {
                 items: 5
@@ -321,7 +326,7 @@ $(document).ready(function () {
             360: {
                 items: 1
             },
-            600: {
+            767: {
                 items: 2
             },
             1000: {
@@ -338,6 +343,7 @@ $(document).ready(function () {
         smartSpeed: 700,
         autoplayHoverPause: true,
         nav: false,
+        items: 4,
         dots: false,
         responsive: {
             0: {
@@ -346,10 +352,13 @@ $(document).ready(function () {
             360: {
                 items: 1
             },
-            600: {
+            767: {
                 items: 2
             },
-            1000: {
+            992: {
+                items: 2
+            },
+            1440: {
                 items: 4
             }
         }
@@ -371,7 +380,7 @@ $(document).ready(function () {
                 items: 1
             },
             600: {
-                items: 2
+                items: 1
             },
             1000: {
                 items: 2
