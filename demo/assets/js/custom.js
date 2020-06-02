@@ -38,6 +38,7 @@ $(document).ready(function () {
     $('.slider-des').owlCarousel({
         loop: true,
         margin: 30,
+        item: 3,
         navText: ["<i class='fas fa-arrow-left'></i>", "<i class=' fas fa-arrow-right' ></i>"],
         responsive: {
             0: {
@@ -46,10 +47,13 @@ $(document).ready(function () {
             360: {
                 items: 1
             },
-            600: {
+            767: {
                 items: 1
             },
-            1000: {
+            768: {
+                items: 2
+            },
+            1199: {
                 items: 3
             }
         }
@@ -198,6 +202,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 700,
+        animateOut: 'slideOutUp',
         autoplayHoverPause: true,
         nav: false,
         dots: true,

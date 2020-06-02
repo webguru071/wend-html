@@ -7,4 +7,336 @@ License URI: https://andit.co/
 Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, traveling, traveling websites, rest, Travelo, vacation.
 
 /* --Responsive-Device-- */
-@media (max-width: 1199px) {}
+@media (max-width: 1440px) {
+  .site-header .site-navigation .navigation-area {
+    padding: 0;
+    justify-content: space-around;
+  }
+}
+
+
+@media (max-width:1199px) {
+  .grun-img img {
+    width: 74%;
+  }
+
+  .grun-img {
+    top: 50%;
+    left: 100px;
+  }
+
+  .content-box p {
+    margin-top: 10px;
+    padding: 0 20%;
+  }
+}
+
+@media (max-width:992px) {
+  .amz-img {
+    text-align: center;
+  }
+
+  .amz-img img {
+    width: auto;
+  }
+
+  #amazing {
+    padding: 100px 0 200px 0;
+  }
+
+  .all-service-travel {
+    margin-top: 100px;
+  }
+
+  .grun-img img {
+    width: 75%;
+  }
+
+  .grun-img {
+    top: 65%;
+    left: 100px;
+  }
+
+  #ab-home .nav-fill {
+    width: 55%;
+  }
+
+  .booking-info {
+    margin-bottom: 30px;
+  }
+
+  .ab-slider {
+    margin-top: 60px;
+  }
+
+  .left-side-text-ab {
+    margin-top: 60px;
+  }
+
+  .video-play-test {
+    position: absolute;
+    top: -290px;
+    left: 42%;
+  }
+
+  #home-testimonial .test-slider-home-1 .row {
+    flex-direction: column-reverse;
+  }
+
+  .test-slider-home-1 {
+    margin-top: 0px;
+  }
+
+  #home-testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+    position: inherit;
+    right: 0;
+    top: 0;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    margin-top: 10px;
+  }
+
+  .test-monial-item {
+    margin-top: 60px;
+  }
+
+  .mar-top-responsive {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-email-text p {
+    font-size: 11px;
+    margin-right: 15px;
+  }
+
+  .main-loc-text p {
+    font-size: 11px;
+  }
+
+  .main-loc-text i {
+    margin-right: 8px;
+    margin-left: 11px;
+  }
+
+  .header-most-top select {
+    width: 67%;
+  }
+
+  .user-log {
+    padding-left: 12px;
+  }
+
+  .user-log i {
+    margin-right: 3px;
+    margin-left: 0;
+  }
+
+  .video-play-banner {
+    right: 80px;
+    position: absolute;
+    margin-top: 0;
+    top: -81px;
+  }
+
+  #banner-home {
+    padding: 100px 0 165px 0;
+  }
+
+  #ab-home select {
+    padding: 6px 0px 6px 34px;
+    font-size: 14px;
+  }
+
+  .grun-img {
+    top: 74%;
+    left: 100px;
+  }
+
+  .video-play-test {
+    position: absolute;
+    top: -337px;
+    left: 41%;
+  }
+
+  .video-play-test i {
+    color: var(--main-theme-color-two);
+    font-size: 23px;
+    height: 80px;
+    width: 80px;
+    background: #fff;
+    line-height: 80px;
+    border-radius: 72%;
+  }
+
+  .test-heading h2 {
+    margin-top: 15px;
+    margin-right: 0;
+  }
+
+  .contact-cover {
+    background: linear-gradient(276deg, rgba(43, 42, 117, 0) 19%, rgba(245, 125, 45, 0.88) 19%);
+  }
+
+  .info-office {
+    display: inherit;
+  }
+
+  .email-deta {
+    margin-top: 21px;
+  }
+
+  .copy-right-para p {
+    font-size: 14px;
+  }
+
+  .face {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+
+  .no-ag {
+    padding: 7px 10px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .login-area {
+    display: none;
+  }
+
+  .main-flex-top .email {
+    justify-content: center;
+  }
+
+  #banner-home {
+    padding: 100px 0 190px 0;
+  }
+
+  .content-box p {
+    padding: 0 8%;
+  }
+
+  .test-moinal-ing-left img {
+    border-radius: 50%;
+    height: 250px;
+    width: 51% !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .flaticon-quotation:before {
+    content: "\f105";
+    color: #ff9d34;
+    font-size: 52px;
+    position: relative;
+    left: 53%;
+    z-index: 1;
+    top: 39px;
+  }
+
+  .quick-link {
+    margin-left: 0;
+    margin-top: 35px;
+  }
+
+  .foot-list-2 {
+    margin-top: 100px;
+  }
+
+  .grun-img img {
+    width: 100%;
+  }
+
+  .grun-img {
+    top: 67%;
+    left: 25%;
+    width: 50%;
+  }
+
+  .flight-cover {
+    margin-right: 9px;
+  }
+
+  .summery-cover p {
+    font-size: 40px;
+  }
+
+  .summery-cover h2 {
+    color: #fff;
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 25px;
+  }
+}
+
+@media (max-width:480px) {
+  .banner-text-home h1 {
+    margin-top: 18px;
+    font-size: 35px;
+    line-height: 44px;
+  }
+
+  .banner-text-home p {
+    margin-top: 9px;
+  }
+
+  #ab-home .nav-fill {
+    width: 100%;
+  }
+
+  .mar-p {
+    margin-right: 0px;
+  }
+
+  .video-play-test i {
+    color: var(--main-theme-color-two);
+    font-size: 20px;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+  }
+
+  .video-play-test {
+    top: -355px;
+  }
+
+  #nav-tabContent {
+    margin: 25px 25px 0 25px;
+  }
+
+  #amazing {
+    padding: 100px 0 110px 0;
+  }
+
+  .test-moinal-ing-left img {
+    width: 64% !important;
+  }
+
+  .contact-cover {
+    background: linear-gradient(272deg, rgba(43, 42, 117, 0) 6%, rgba(245, 125, 45, 0.88) 6%);
+    padding: 30px 34px 40px 25px;
+  }
+
+  .copy-right-para p {
+    font-size: 9px;
+  }
+
+  .no-ag {
+    padding: 4px 7px !important;
+  }
+
+  .face {
+    padding: 3px 3px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width:361px) {}
