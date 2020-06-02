@@ -1221,8 +1221,6 @@ ul.dropdown-content>.dropdown-trigger:hover>ul.dropdown-content>li:hover>a {
   }
 }
 
-
-
 /*--------------------------------------
 	6.3. banner-Home
 ---------------------------------------*/
@@ -1251,7 +1249,7 @@ ul.dropdown-content>.dropdown-trigger:hover>ul.dropdown-content>li:hover>a {
 }
 
 #banner-home {
-  background-image: url(../img/bann-img.png);
+  background-image: url(../img/common-img/banner-img.png);
   padding: 170px 0 290px 0;
   background-size: cover;
   background-position: right;
@@ -1629,7 +1627,7 @@ label {
 }
 
 #ab-home {
-  background-image: url(../img/map.png);
+  background-image: url(../img/common-img/map.png);
   background-size: cover;
   z-index: 111;
   position: relative;
@@ -1731,8 +1729,6 @@ select {
   left: 158px;
 }
 
-.buget span {}
-
 .ranger-1 {
   height: 20px;
   width: 20px;
@@ -1758,7 +1754,7 @@ select {
 
 #amazing {
   padding: 100px 0 0 0;
-  background-image: url(../img/bj.png);
+  background-image: url(../img/common-img/about-bg.png);
   background-size: cover;
   background-position: center;
 }
@@ -1947,7 +1943,7 @@ select {
 -------------------------------------*/
 
 #summery {
-  background-image: url(../img/tr.png);
+  background-image: url(../img/common-img/summer.png);
   background-size: cover;
   padding: 100px 0;
 }
@@ -2035,78 +2031,140 @@ select {
   padding: 100px 0;
 }
 
-.coa-app img {
-  display: block;
+.team-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-box:after,
+.team-box:before {
+  position: absolute;
+  content: "";
+}
+
+.team-box:before {
+  width: 80%;
+  height: 220%;
+  background: #ff9d34;
+  top: -50%;
+  left: -100%;
+  z-index: 1;
+  transform: rotate(25deg);
+  transform-origin: center top 0;
+  transition: all 0.5s ease 0s;
+}
+
+.team-box:hover:before {
+  left: 10%;
+}
+
+.team-box:after {
+  width: 55%;
+  height: 175%;
+  background-color: #014073;
+  bottom: -1000%;
+  left: 53%;
+  transform: rotate(-33deg);
+  transform-origin: center bottom 0;
+  transition: all 0.8s ease 0s;
+}
+
+.team-box .box-content,
+.team-box .icon {
+  width: 100%;
+  padding: 0 20px;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  transition: all 1.1s ease 0s;
+}
+
+.team-box:hover:after {
+  bottom: -70%;
+}
+
+.team-box img {
   width: 100%;
   height: auto;
 }
 
-.coa-app {
-  position: relative;
-}
-
-.team-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(284deg,
-      rgba(43, 44, 117, 0) 33%,
-      rgba(245, 125, 45, 0.88) 19%);
-  overflow: hidden;
-  width: 0%;
-  height: 100%;
-  transition: 0.5s ease;
-}
-
-.coa-app:hover .team-overlay {
-  width: 100%;
-}
-
-.team-contact h6 {
+.team-box .box-content {
+  top: -100%;
   color: #fff;
-  margin-top: 24px;
 }
 
-.team-contact p {
+.team-box:hover .box-content {
+  top: 30px;
+}
+
+.team-box .title {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.team-box .icon li a {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.team-box .posation {
   color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
   font-size: 16px;
 }
 
-.team-icon {
-  margin-top: 20px;
+.team-box .btn-4 {
+  margin-top: 10px;
 }
 
-.team-over {
-  padding: 5px 5px;
-  border: 2px solid #fff;
-  border-radius: 112px;
-  color: #fff;
-  font-size: 14px;
-  margin-right: 6px;
-  transition: 3s;
+.team-box .icon {
+  list-style: none;
+  margin: 0;
+  bottom: -100%;
 }
 
-.team-over:hover {
-  border: 2px solid #014073;
+.team-box:hover .icon {
+  bottom: 25px;
+}
+
+.team-box .icon li {
+  display: inline-block;
+}
+
+.team-box .icon li a {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 3px;
   color: #014073;
-  transition: 2s;
+  text-align: center;
+  transition: all 0.5s ease 0s;
 }
 
-.no-te {
-  padding: 5px 9px !important;
+.team-box .icon li a:hover {
+  background: #014073;
+  color: #fff;
 }
 
-.team-contact {
-  position: absolute;
-  left: 30px;
-  top: 60px;
-  display: none;
-  transition: 3s;
+.team-box .icon li:hover a i {
+  color: #fff;
 }
 
-.coa-app:hover .team-contact {
-  display: block;
+@media only screen and (max-width: 990px) {
+  .team-box {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .team-box .title {
+    font-size: 20px;
+  }
 }
 
 /*--------------------------------------
@@ -2114,7 +2172,7 @@ select {
 -------------------------------------*/
 
 #home-testimonial-top {
-  background-image: url(../img/t-bg.png);
+  background-image: url(../img/common-img/testmoinal-bg.png);
   background-size: cover;
   padding: 120px 0 390px 0;
   background-repeat: no-repeat;
@@ -2184,8 +2242,6 @@ select {
   color: #ff9d34;
   margin-top: 15px;
 }
-
-.test-monial-item {}
 
 .test-moinal-ing-left img {
   position: relative;
@@ -3390,7 +3446,7 @@ button.close {
 --------------------------------*/
 
 #faq-banner {
-  background-image: url(../img/faq.png);
+  background-image: url('../img/common-img/faq.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px 0;
@@ -3510,7 +3566,7 @@ button.close {
 -----------------------------------*/
 
 #contact-banner {
-  background-image: url(../img/contact.png);
+  background-image: url('../img/common-img/contact.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px 0;
@@ -3618,7 +3674,7 @@ button.close {
 -----------------------------------*/
 
 #blog-banner {
-  background-image: url(../img/blog.png);
+  background-image: url(../img/common-img/blog.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px 0;
@@ -3981,8 +4037,8 @@ button.close {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  border-bottom: 1px solid #a6a6a6;
-  border-top: 1px solid #a6a6a6;
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
   padding: 35px 0;
 }
 
@@ -4010,7 +4066,7 @@ button.close {
 .sal-client-chart {
   display: flex;
   margin-top: 35px;
-  border-bottom: 1px solid #a6a6a6;
+  border-bottom: 1px solid #e8e8e8;
   padding-bottom: 25px;
 }
 
@@ -4035,7 +4091,7 @@ button.close {
 }
 
 .all-clien-sayt {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .all-clien-sayt h2 {
@@ -4452,7 +4508,7 @@ button.close {
 
 #banner-home-slider .owl-next:hover,
 #banner-home-slider .owl-prev:hover {
-  background-image: url(../img/slider/c2.jpg);
+  background-image: url(../img/slider/slider-1.jpg);
   background-size: contain;
 }
 
@@ -4604,7 +4660,7 @@ button.close {
 
 #banner-area-three .main-com {
   margin: 0;
-  z-index: 999;
+  z-index: 9;
 }
 
 #banner-area-three .nav-fill {
