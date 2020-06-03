@@ -29,6 +29,10 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
     margin-top: 10px;
     padding: 0 20%;
   }
+
+  .who-img img {
+    width: 100%;
+  }
 }
 
 @media (max-width:992px) {
@@ -38,6 +42,10 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
 
   .amz-img img {
     width: auto;
+  }
+
+  .left-op {
+    margin-right: 0;
   }
 
   #amazing {
@@ -207,12 +215,68 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
   .blog-item-img img {
     width: 100%;
   }
+
+  .left-blog-tree {
+    margin-top: 60px;
+  }
+
+  .left-op {
+    margin-right: -11px;
+  }
+
+  .best-service-heading h2 {
+    padding: 0 0%;
+  }
+
+  .best-service-heading p {
+    padding: 0px 15%;
+  }
+
+  .all-dfkj:after {
+    position: inherit;
+  }
+
+  .adress-cover-main {
+    padding: 0 0px;
+  }
+
+  .contact-3-cover {
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 768px) {
   .main-email-text p {
     font-size: 11px;
     margin-right: 15px;
+  }
+
+  .box-tes-bl {
+    padding: 37px 12px 26px 111px;
+  }
+
+  .inner-tahes {
+    display: inherit;
+  }
+
+  .alow-rasta {
+    display: inherit;
+  }
+
+  .mar-nened {
+    margin-left: 67px;
+  }
+
+  .lave-cooment {
+    margin-top: 50px;
+  }
+
+  .inner-tahes ul {
+    margin-bottom: 11px;
+  }
+
+  .box-tes-bl blockquote {
+    font-size: 14px;
   }
 
   .main-loc-text p {
@@ -354,12 +418,58 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
     line-height: 75px;
     text-align: left;
   }
+
+  .who-box {
+    margin-top: 35px;
+  }
+
+  .gift-img img {
+    padding: 0px;
+  }
+
+  .all-ineer-der-ter img {
+    width: 60%;
+  }
+
+  #faqws-area .row {
+    flex-direction: column-reverse;
+  }
+
+  .all-catagory {
+    margin-bottom: 40px;
+  }
+
+  .for-img img {
+    width: 100%;
+  }
+
+  .team-box:hover .icon {
+    bottom: 5px;
+  }
+
+  .team-box:hover .box-content {
+    top: 5px;
+  }
 }
 
 @media (max-width: 576px) {
   .login-area {
     display: none;
   }
+
+  .team-box:hover .box-content {
+    top: 50px;
+  }
+
+  .team-box:hover .icon {
+    bottom: 66px;
+  }
+
+  .adress-cover-main {
+    padding: 33px 0px 0 0;
+  }
+
+
 
   .tour-main-informa h6 span {
     margin-left: 6px;
@@ -458,6 +568,30 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
   .clients-desnigation {
     margin-left: 0;
   }
+
+  .al-img-at1 p {
+    font-size: 13px;
+    margin-left: 6px;
+  }
+
+  .al-img-at2 p {
+    font-size: 13px;
+    margin-left: 6px;
+  }
+
+  .coom-2-client {
+    display: inherit;
+    margin-left: 0px;
+  }
+
+  .coomm-2cliebt-hed {
+    margin-left: 0px;
+    margin-top: 33px;
+  }
+
+  .all-single-cover {
+    margin-right: 0px;
+  }
 }
 
 @media (max-width:480px) {
@@ -553,6 +687,26 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
   .tour-main-informa h6 {
     font-size: 11px;
   }
+
+  .leav-form {
+    margin-top: 0px;
+  }
+
+  .lave-tree-form {
+    display: inherit;
+  }
+
+  .email-fred {
+    margin: 0 0px;
+  }
 }
 
-@media (max-width:361px) {}
+@media (max-width:361px) {
+  .team-box:hover .box-content {
+    top: 5px;
+  }
+
+  .team-box:hover .icon {
+    bottom: 6px;
+  }
+}

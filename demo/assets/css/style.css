@@ -2746,7 +2746,7 @@ button:focus {
 .overay-nutre {
   position: absolute;
   top: 0;
-  background: var(--main-theme-color-one)96;
+  background: #0140739e;
   height: 100%;
   width: 100%;
   opacity: 0;
