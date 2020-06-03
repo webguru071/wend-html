@@ -365,13 +365,13 @@ $(document).ready(function () {
     });
     $('.testimonials-six-wrapper').owlCarousel({
         loop: true,
-        margin: 30,
+        margin: 0,
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 700,
         autoplayHoverPause: true,
         nav: false,
-        dots: true,
+        dots: false,
         responsive: {
             0: {
                 items: 1
@@ -384,6 +384,37 @@ $(document).ready(function () {
             },
             1000: {
                 items: 2
+            }
+        }
+    });
+
+    // home page five local-slider
+
+    $('.local-items-slider-wrapper').owlCarousel({
+        loop: true,
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            767: {
+                items: 2
+            },
+
+            1000: {
+                items: 2
+            },
+            1800: {
+                items: 4
             }
         }
     });
@@ -422,18 +453,22 @@ $(document).ready(function () {
 
 
     /*====== Scroll to top ========*/
-    jQuery('.to-top').on('click', function (event) {
-        jQuery('html,body').animate({
-            scrollTop: 0
-        }, 1000);
+    // Go to Top
+    $(function () {
+        // Scroll Event
+        $(window).on('scroll', function () {
+            var scrolled = $(window).scrollTop();
+            if (scrolled > 350) $('.go-top').addClass('active');
+            if (scrolled < 350) $('.go-top').removeClass('active');
+        });
+        // Click Event
+        $('.go-top').on('click', function () {
+            $("html, body").animate({
+                scrollTop: "0"
+            }, 500);
+        });
     });
-    jQuery(window).scroll(function () {
-        if (jQuery(window).scrollTop() > 100) {
-            jQuery('.to-top').fadeIn(1000);
-        } else {
-            jQuery('.to-top').fadeOut(1000);
-        };
-    });
+
     /*====== wow js ========*/
     new WOW().init();
 
