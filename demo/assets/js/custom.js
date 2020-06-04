@@ -472,8 +472,6 @@ $(document).ready(function () {
     /*====== wow js ========*/
     new WOW().init();
 
-
-
     /*====== magnificPopup Gallery ========*/
     $(".icon-tsdg").magnificPopup({
         delegate: 'a',
