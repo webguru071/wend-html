@@ -5926,7 +5926,7 @@ button.close {
   margin-top: 25px;
 }
 
-.local-rating-box i {
+.local-rating-box i { 
   color: var(--main-theme-color-two);
 }
 
