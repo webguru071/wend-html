@@ -363,6 +363,34 @@ $(document).ready(function () {
             }
         }
     });
+    $('.perfect-slider-wrapper-2').owlCarousel({
+        loop: true,
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        nav: false,
+        items: 4,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            767: {
+                items: 2
+            },
+            992: {
+                items: 2
+            },
+            1440: {
+                items: 3
+            }
+        }
+    });
     $('.testimonials-six-wrapper').owlCarousel({
         loop: true,
         margin: 0,

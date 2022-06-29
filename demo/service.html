@@ -1,638 +1,642 @@
- <!DOCTYPE html>
- <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
- <head>
- 	<meta charset="UTF-8">
- 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
- 	<meta name="description" content="Wend - Tour, Travel, Travel Agency Template">
- 	<meta name="keywords" content="Tour, Travel, Travel Agency Template">
- 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
- 	<!-- Title-->
- 	<title>Travel | Service</title>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Wend - Tour, Travel, Travel Agency Template">
+	<meta name="keywords" content="Tour, Travel, Travel Agency Template">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<!-- Title-->
+	<title>Travel | Service</title>
 
- 	<!--Favicon add-->
- 	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png" />
- 	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png" />
- 	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png" />
- 	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png" />
- 	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png" />
- 	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png" />
- 	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png" />
- 	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png" />
- 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png" />
- 	<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png" />
- 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
- 	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png" />
- 	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
- 	<link rel="manifest" href="assets/favicon/manifest.json" />
- 	<meta name="msapplication-TileColor" content="#ffffff">
- 	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
- 	<meta name="theme-color" content="#ffffff">
- 	<!-- Bootstrap-->
- 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
- 	<!--magnific-popup.cs-->
- 	<link rel="stylesheet" href="assets/css/magnific-popup.css">
- 	<!--owl css-->
- 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
- 	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
- 	<!--	normalize css-->
- 	<link rel="stylesheet" href="assets/css/normalize.css">
- 	<!-- venobox.css-->
- 	<link rel="stylesheet" href="assets/css/venobox.min.css" />
- 	<!--	flacticon css-->
- 	<link rel="stylesheet" href="assets/font/flaticon.css">
- 	<!--	animate css-->
- 	<link rel="stylesheet" href="assets/css/animate.css">
+	<!--Favicon add-->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png" />
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+	<link rel="manifest" href="assets/favicon/manifest.json" />
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Bootstrap-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!--magnific-popup.cs-->
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<!--owl css-->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<!--	normalize css-->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<!-- venobox.css-->
+	<link rel="stylesheet" href="assets/css/venobox.min.css" />
+	<!--	flacticon css-->
+	<link rel="stylesheet" href="assets/font/flaticon.css">
+	<!--	animate css-->
+	<link rel="stylesheet" href="assets/css/animate.css">
 
- 	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
- 		type="text/css" />
- 	<!--Fontawesom -->
- 	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
- 	<!--Poppins-->
- 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
- 		rel="stylesheet">
- 	<!--Lato-->
- 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
- 	<!-- style.css-->
- 	<link rel="stylesheet" href="assets/css/style.css">
- 	<!-- menu.css-->
- 	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
- 	<!-- responsive.css-->
- 	<link rel="stylesheet" href="assets/css/responsive.css">
- </head>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
+		type="text/css" />
+	<!--Fontawesom -->
+	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
+	<!--Poppins-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+		rel="stylesheet">
+	<!--Lato-->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+	<!-- style.css-->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- menu.css-->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
+	<!-- responsive.css-->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
 
- <body>
- 	<!-- preloader-->
- 	<div id="preloader">
- 		<div id="status">&nbsp;</div>
- 	</div>
- 	<!-- preloader-->
- 	<!-- top header-->
- 	<div class="header-most-top">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-lg-7 col-md-8 col-sm-8 col-12">
- 					<div class="main-flex-top">
- 						<div class="email sel d-flex">
- 							<div class="main-email-text d-flex">
- 								<i class="fas fa-envelope"></i>
- 								<p>infp@a2z.com</p>
- 							</div>
- 							<div class="main-loc-text d-flex">
- 								<i class="fas fa-map-marker-alt"></i>
- 								<p>78 5th Ave, New York, Ny 10011, USA</p>
- 							</div>
- 						</div>
- 					</div>
- 				</div>
- 				<div class="col-lg-5 col-md-4 col-sm-4 col-12">
- 					<div class="login-area">
- 						<div class="seclict-area">
- 							<img src="assets/img/common-img/flg.png" alt="img">
- 							<select name="cars">
- 								<option value="volvo">USA</option>
- 								<option value="saab">BAN</option>
- 								<option value="fiat">BAN</option>
- 								<option value="audi">BAN</option>
- 							</select>
- 							<i class="fas fa-angle-down"></i>
- 						</div>
- 						<div class="user-log">
- 							<i class="far fa-user-circle"></i>
- 							<a href="#">Sign In</a>
- 						</div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
- 	<!-- top header end-->
+<body>
+	<!-- preloader-->
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	<!-- preloader-->
+	<!-- top header-->
+	<div class="header-most-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 col-md-8 col-sm-8 col-12">
+					<div class="main-flex-top">
+						<div class="email sel d-flex">
+							<div class="main-email-text d-flex">
+								<i class="fas fa-envelope"></i>
+								<p>infp@a2z.com</p>
+							</div>
+							<div class="main-loc-text d-flex">
+								<i class="fas fa-map-marker-alt"></i>
+								<p>78 5th Ave, New York, Ny 10011, USA</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-4 col-sm-4 col-12">
+					<div class="login-area">
+						<div class="seclict-area">
+							<img src="assets/img/common-img/flg.png" alt="img">
+							<select name="cars">
+								<option value="volvo">USA</option>
+								<option value="saab">BAN</option>
+								<option value="fiat">BAN</option>
+								<option value="audi">BAN</option>
+							</select>
+							<i class="fas fa-angle-down"></i>
+						</div>
+						<div class="user-log">
+							<i class="far fa-user-circle"></i>
+							<a href="#">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- top header end-->
 
- 	<!-- navber start-->
- 	<header class="site-header header-style-one">
- 		<div class="site-navigation style-one">
- 			<div class="container">
- 				<div class="row align-items-center">
- 					<div class="col-12">
- 						<div class="navbar navbar-expand-lg navigation-area">
- 							<div class="site-branding">
- 								<a class="site-logo" href="index.html">
- 									<img src="assets/img/logo.png" alt="Site Logo" />
- 								</a>
- 							</div>
- 							<div class="mainmenu-area">
- 								<nav class="menu">
- 									<ul id="nav">
- 										<li class="dropdown-trigger">
- 											<a href="#">Home</a>
- 											<ul class="dropdown-content">
- 												<li><a href="index.html">Home one</a></li>
- 												<li><a href="index-2.html">Home two</a></li>
- 												<li><a href="index-3.html">Home three</a></li>
- 												<li><a href="index-4.html">Home four</a></li>
- 												<li><a href="index-5.html">Home five</a></li>
- 												<li><a href="index-6.html">Home six</a></li>
- 											</ul>
- 										</li>
- 										<li class="dropdown-trigger">
- 											<a href="#">Trip Package</a>
- 											<ul class="dropdown-content">
- 												<li><a href="tour-packages.html">Tour-Packages</a></li>
- 												<li><a href="tour-details.html">Tour-Details</a></li>
- 											</ul>
- 										</li>
- 										<li>
- 											<a href="service.html" class="active">Service</a>
- 										</li>
- 										<li>
- 											<a href="gallery.html">Gallery</a>
- 										</li>
- 										<li class="dropdown-trigger">
- 											<a href="#">Blog</a>
- 											<ul class="dropdown-content">
- 												<li><a href="blog.html">Blog-Classic</a></li>
- 												<li><a href="blog-single.html">Blog Single</a></li>
- 											</ul>
- 										</li>
- 										<li class="dropdown-trigger">
- 											<a href="#">Page</a>
- 											<ul class="dropdown-content">
- 												<li><a href="about.html">About</a></li>
- 												<li><a href="faq.html">Faqs</a></li>
- 												<li><a href="contact.html">Contact</a></li>
- 												<li><a href="404.html">404 page</a></li>
- 											</ul>
- 										</li>
- 									</ul>
- 								</nav>
- 							</div>
- 						</div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
+	<!-- navber start-->
+	<header class="site-header header-style-one">
+		<div class="site-navigation style-one">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-12">
+						<div class="navbar navbar-expand-lg navigation-area">
+							<div class="site-branding">
+								<a class="site-logo" href="index.html">
+									<img src="assets/img/logo.png" alt="Site Logo" />
+								</a>
+							</div>
+							<div class="mainmenu-area">
+								<nav class="menu">
+									<ul id="nav">
+										<li class="dropdown-trigger">
+											<a href="#">Home</a>
+											<ul class="dropdown-content">
+												<li><a href="index.html">Home one</a></li>
+												<li><a href="index-2.html">Home two</a></li>
+												<li><a href="index-3.html">Home three</a></li>
+												<li><a href="index-4.html">Home four</a></li>
+												<li><a href="index-5.html">Home five</a></li>
+												<li><a href="index-6.html">Home six</a></li>
+												<li><a href="index-7.html">Home seven</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-trigger">
+											<a href="#">Trip Package</a>
+											<ul class="dropdown-content">
+												<li><a href="tour-packages.html">Tour-Packages</a></li>
+												<li><a href="tour-details.html">Tour-Details</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="service.html" class="active">Service</a>
+										</li>
+										<li>
+											<a href="gallery.html">Gallery</a>
+										</li>
+										<li class="dropdown-trigger">
+											<a href="#">Blog</a>
+											<ul class="dropdown-content">
+												<li><a href="blog.html">Blog-Classic</a></li>
+												<li><a href="blog-single.html">Blog Single</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-trigger">
+											<a href="#">Page</a>
+											<ul class="dropdown-content">
+												<li><a href="about.html">About</a></li>
+												<li><a href="faq.html">Faqs</a></li>
+												<li><a href="contact.html">Contact</a></li>
+												<li><a href="404.html">404 page</a></li>
+											</ul>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
- 		<div class="mobile-menu-area">
- 			<div class="container">
- 				<div class="row">
- 					<div class="col-12">
- 						<div class="mobile-menu">
- 							<a class="mobile-logo" href="index.html">
- 								<img src="assets/img/logo.png" alt="logo" />
- 							</a>
- 						</div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</header>
- 	<!-- navber end-->
- 	<!-- service-banner start-->
- 	<section id="service-main-banner">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-lg-12">
- 					<div class="common-banner-text  wow zoomIn" data-wow-duration="2s">
- 						<div class="common-heading">
- 							<h1>Service</h1>
- 						</div>
- 						<div class="commom-sub-heading">
- 							<h6>
- 								<a href="index.html">Home</a>
- 								<span>/</span>
- 								<a href="#!">Service</a>
- 							</h6>
- 						</div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</section>
- 	<!--  service-banner end-->
+		<div class="mobile-menu-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="mobile-menu">
+							<a class="mobile-logo" href="index.html">
+								<img src="assets/img/logo.png" alt="logo" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- navber end-->
+	<!-- service-banner start-->
+	<section id="service-main-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="common-banner-text  wow zoomIn" data-wow-duration="2s">
+						<div class="common-heading">
+							<h1>Service</h1>
+						</div>
+						<div class="commom-sub-heading">
+							<h6>
+								<a href="index.html">Home</a>
+								<span>/</span>
+								<a href="#!">Service</a>
+							</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  service-banner end-->
 
- 	<!-- who-are start-->
- 	<section id="wer-service">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-lg-6 col-md-12 col-sm-12 col-12">
- 					<div class="ser-ab-deta">
- 						<div class="service-ads-heading">
- 							<h2>Every Time We Provide <span>Best Service</span></h2>
- 						</div>
- 						<div class="services-pata">
- 							<p>Aliquam erat volutpat. Curabitur tempor nibh quis arcu convallis, sed viverra quam
- 								sollicitudin. Proin sed augue sed neque ultricies condimentum. In ac ultrices lectus.
- 								Nullam ex elit, vestibulum ut urna non, tincidunt condimentum sem. Sed enim tortor,
- 								accumsan.Nullam ex elit, vestibulum ut urna non, tincidunt </p>
- 							<p>condimentum sem. Sed enim tortor, accumsan. Nullam ex elit, vestibulum ut urna non,
- 								tincidunt condimentum sem. Sed enim tortor, accumsan.Nullam ex elit, vestibulum ut urna
- 								non, tincidunt condimentum .</p>
- 						</div>
- 					</div>
- 				</div>
- 				<div class="col-lg-6 col-md-12 col-sm-12 col-12">
- 					<div class="row">
- 						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
- 							<div class="service-deta-ovjet ersd-2 wow fadeIn" data-wow-duration="1.5s">
- 								<div class="weject-on">
- 									<img src="assets/img/service/1.png" alt="img">
- 									<h6>Advice & Support</h6>
- 									<p>Proin sed auguet sed neque andk ultricies aasr dffgfd condimentum. .</p>
- 								</div>
- 								<div class="weject-on ers wow fadeIn" data-wow-duration="2s">
- 									<img src="assets/img/service/2.png" alt="img">
- 									<h6>Hotel Accomodations</h6>
- 									<p>Proin sed auguet sed neque andk ultricies aasr dffgfd condimentum. .</p>
- 								</div>
- 							</div>
- 						</div>
- 						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
- 							<div class="service-deta-ovjet ers-2 wow fadeIn" data-wow-duration="3s">
- 								<div class="weject-on">
- 									<img src="assets/img/service/3.png" alt="img">
- 									<h6>Advice & Support</h6>
- 									<p>Proin sed auguet sed neque andk ultricies aasr dffgfd condimentum. .</p>
- 								</div>
- 								<div class="weject-on ers  wow fadeIn" data-wow-duration="1s">
- 									<img src="assets/img/service/4.png" alt="img">
- 									<h6>Hotel Accomodations</h6>
- 									<p>Proin sed auguet sed neque andk ultricies aasr dffgfd condimentum. .</p>
- 								</div>
- 							</div>
- 						</div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</section>
- 	<!-- who-are end-->
+	<!-- who-are start-->
+	<section id="wer-service">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="ser-ab-deta">
+						<div class="service-ads-heading">
+							<h2>Every Time We Provide <span>Best Service</span></h2>
+						</div>
+						<div class="services-pata">
+							<p>Aliquam erat volutpat. Curabitur tempor nibh quis arcu convallis, sed viverra quam
+								sollicitudin. Proin sed augue sed neque ultricies condimentum. In ac ultrices lectus.
+								Nullam ex elit, vestibulum ut urna non, tincidunt condimentum sem. Sed enim tortor,
+								accumsan.Nullam ex elit, vestibulum ut urna non, tincidunt </p>
+							<p>condimentum sem. Sed enim tortor, accumsan. Nullam ex elit, vestibulum ut urna non,
+								tincidunt condimentum sem. Sed enim tortor, accumsan.Nullam ex elit, vestibulum ut urna
+								non, tincidunt condimentum .</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+							<div class="service-deta-ovjet ersd-2 wow fadeIn" data-wow-duration="1.5s">
+								<div class="weject-on">
+									<img src="assets/img/service/1.png" alt="img">
+									<h6>Advice & Support</h6>
+									<p>Proin sed auguet sed neque andk ultricies aasr dffgfd condimentum. .</p>
+								</div>
+								<div class="weject-on ers wow fadeIn" data-wow-duration="2s">
+									<img src="assets/img/service/2.png" alt="img">
+									<h6>Hotel Accomodations</h6>
+									<p>Proin sed auguet sed neque andk ultricies aasr dffgfd condimentum. .</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+							<div class="service-deta-ovjet ers-2 wow fadeIn" data-wow-duration="3s">
+								<div class="weject-on">
+									<img src="assets/img/service/3.png" alt="img">
+									<h6>Advice & Support</h6>
+									<p>Proin sed auguet sed neque andk ultricies aasr dffgfd condimentum. .</p>
+								</div>
+								<div class="weject-on ers  wow fadeIn" data-wow-duration="1s">
+									<img src="assets/img/service/4.png" alt="img">
+									<h6>Hotel Accomodations</h6>
+									<p>Proin sed auguet sed neque andk ultricies aasr dffgfd condimentum. .</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- who-are end-->
 
- 	<!-- testimonial-top start-->
- 	<section id="home-testimonial-top">
- 		<div class="content-box">
- 			<h6 class="color-1">Motion</h6>
- 			<h2 class="color-2">Watch Our <span> Video Tour</span></h2>
- 		</div>
- 	</section>
- 	<!-- testimonial-top end-->
+	<!-- testimonial-top start-->
+	<section id="home-testimonial-top">
+		<div class="content-box">
+			<h6 class="color-1">Motion</h6>
+			<h2 class="color-2">Watch Our <span> Video Tour</span></h2>
+		</div>
+	</section>
+	<!-- testimonial-top end-->
 
- 	<!-- testimonial start-->
- 	<section id="service-testmoinal">
- 		<div class="container">
- 			<div class="heading">
- 				<h2>ab-section</h2>
- 			</div>
- 			<div class="row">
- 				<div class="col-lg-12">
- 					<div class="vt-img">
- 						<img src="assets/img/common-img/video.png" alt="img">
- 					</div>
- 					<div class="video-play-test">
- 						<a href="https://www.youtube.com/watch?v=V43FgG7kE00" class="video-play-btn video-link venobox"
- 							data-vbtype="video" data-autoplay="true"><i class="fas fa-play"></i></a>
- 					</div>
+	<!-- testimonial start-->
+	<section id="service-testmoinal">
+		<div class="container">
+			<div class="heading">
+				<h2>ab-section</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="vt-img">
+						<img src="assets/img/common-img/video.png" alt="img">
+					</div>
+					<div class="video-play-test">
+						<a href="https://www.youtube.com/watch?v=V43FgG7kE00" class="video-play-btn video-link venobox"
+							data-vbtype="video" data-autoplay="true"><i class="fas fa-play"></i></a>
+					</div>
 
- 				</div>
- 			</div>
- 		</div>
- 	</section>
- 	<!-- testimonial end-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- testimonial end-->
 
- 	<!-- team start-->
- 	<section id="home-team">
- 		<div class="content-box">
- 			<h6>Travel Guides, Tips & Advice</h6>
- 			<h2>Travel <span>Agents</span></h2>
- 			<p>
- 				Aliquam erat volutpat. Curabitur tempor nibh quis arcu convallis, sed
- 				viverra quam sollicitudin. Proin sed augue sed neque ultricies
- 				condimentum.
- 			</p>
- 		</div>
- 		<div class="container">
- 			<div class="row mt-30">
- 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
- 					<div class="team-box">
- 						<img src="assets/img/agent/t-1.png" alt="img" />
- 						<div class="box-content">
- 							<h3 class="title">willimson</h3>
- 							<p class="posation">web designer</p>
- 							<a href="#!" class="btn btn-4">HIRE ME</a>
- 						</div>
- 						<ul class="icon">
- 							<li>
- 								<a href="#"><i class="fab fa-facebook-f"></i></a>
- 							</li>
- 							<li>
- 								<a href="#"><i class="fab fa-twitter"></i></a>
- 							</li>
- 							<li>
- 								<a href="#"><i class="fab fa-linkedin-in"></i></a>
- 							</li>
- 						</ul>
- 					</div>
- 				</div>
- 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
- 					<div class="team-box">
- 						<img src="assets/img/agent/t-2.png" alt="img" />
- 						<div class="box-content">
- 							<h3 class="title">Kristiana</h3>
- 							<p class="posation">Web developer</p>
- 							<a href="#!" class="btn btn-4">HIRE ME</a>
- 						</div>
- 						<ul class="icon">
- 							<li>
- 								<a href="#"><i class="fab fa-facebook-f"></i></a>
- 							</li>
- 							<li>
- 								<a href="#"><i class="fab fa-twitter"></i></a>
- 							</li>
- 							<li>
- 								<a href="#"><i class="fab fa-linkedin-in"></i></a>
- 							</li>
- 						</ul>
- 					</div>
- 				</div>
- 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
- 					<div class="team-box">
- 						<img src="assets/img/agent/t-3.png" alt="img" />
- 						<div class="box-content">
- 							<h3 class="title">Kristiana</h3>
- 							<p class="posation">Web developer</p>
- 							<a href="#!" class="btn btn-4">HIRE ME</a>
- 						</div>
- 						<ul class="icon">
- 							<li>
- 								<a href="#"><i class="fab fa-facebook-f"></i></a>
- 							</li>
- 							<li>
- 								<a href="#"><i class="fab fa-twitter"></i></a>
- 							</li>
- 							<li>
- 								<a href="#"><i class="fab fa-linkedin-in"></i></a>
- 							</li>
- 						</ul>
- 					</div>
- 				</div>
- 			</div>
- 			<div class="logo-slilder">
- 				<div class="all-logo owl-carousel owl-theme">
- 					<a href="#!"><img src="assets/img/about/lo-1.png" alt=""></a>
- 					<a href="#!"><img src="assets/img/about/lo-2.png" alt=""></a>
- 					<a href="#!"><img src="assets/img/about/lo-3.png" alt=""></a>
- 					<a href="#!"><img src="assets/img/about/lo-4.png" alt=""></a>
- 					<a href="#!"><img src="assets/img/about/lo-5.png" alt=""></a>
- 					<a href="#!"><img src="assets/img/about/lo-6.png" alt=""></a>
- 				</div>
- 			</div>
- 		</div>
- 	</section>
- 	<!-- team end-->
+	<!-- team start-->
+	<section id="home-team">
+		<div class="content-box">
+			<h6>Travel Guides, Tips & Advice</h6>
+			<h2>Travel <span>Agents</span></h2>
+			<p>
+				Aliquam erat volutpat. Curabitur tempor nibh quis arcu convallis, sed
+				viverra quam sollicitudin. Proin sed augue sed neque ultricies
+				condimentum.
+			</p>
+		</div>
+		<div class="container">
+			<div class="row mt-30">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+					<div class="team-box">
+						<img src="assets/img/agent/t-1.png" alt="img" />
+						<div class="box-content">
+							<h3 class="title">willimson</h3>
+							<p class="posation">web designer</p>
+							<a href="#!" class="btn btn-4">HIRE ME</a>
+						</div>
+						<ul class="icon">
+							<li>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+					<div class="team-box">
+						<img src="assets/img/agent/t-2.png" alt="img" />
+						<div class="box-content">
+							<h3 class="title">Kristiana</h3>
+							<p class="posation">Web developer</p>
+							<a href="#!" class="btn btn-4">HIRE ME</a>
+						</div>
+						<ul class="icon">
+							<li>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+					<div class="team-box">
+						<img src="assets/img/agent/t-3.png" alt="img" />
+						<div class="box-content">
+							<h3 class="title">Kristiana</h3>
+							<p class="posation">Web developer</p>
+							<a href="#!" class="btn btn-4">HIRE ME</a>
+						</div>
+						<ul class="icon">
+							<li>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="logo-slilder">
+				<div class="all-logo owl-carousel owl-theme">
+					<a href="#!"><img src="assets/img/about/lo-1.png" alt=""></a>
+					<a href="#!"><img src="assets/img/about/lo-2.png" alt=""></a>
+					<a href="#!"><img src="assets/img/about/lo-3.png" alt=""></a>
+					<a href="#!"><img src="assets/img/about/lo-4.png" alt=""></a>
+					<a href="#!"><img src="assets/img/about/lo-5.png" alt=""></a>
+					<a href="#!"><img src="assets/img/about/lo-6.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- team end-->
 
- 	<!-- nature-img start-->
- 	<section id="img-nature">
- 		<div class="heading">
- 			<h2>ab-section</h2>
- 		</div>
- 		<div class="container-fluid">
- 			<div class="img-nature-slider owl-carousel owl-theme">
- 				<div class="nuture-img-item">
- 					<a href="#"><img src="assets/img/about/n-1.png" alt=""></a>
- 					<div class="overay-nutre">
- 						<a href="assets/img/about/n-1.png"><i class="fas fa-search-plus"></i></a>
- 					</div>
- 				</div>
- 				<div class="nuture-img-item">
- 					<a href="#"><img src="assets/img/about/n-2.png" alt=""></a>
- 					<div class="overay-nutre">
- 						<a href="assets/img/about/n-2.png"><i class="fas fa-search-plus"></i></a>
- 					</div>
- 				</div>
- 				<div class="nuture-img-item">
- 					<a href="#"><img src="assets/img/about/n-3.png" alt=""></a>
- 					<div class="overay-nutre">
- 						<a href="assets/img/about/n-3.png"><i class="fas fa-search-plus"></i></a>
- 					</div>
- 				</div>
- 				<div class="nuture-img-item">
- 					<a href="#"><img src="assets/img/about/n-4.png" alt=""></a>
- 					<div class="overay-nutre">
- 						<a href="assets/img/about/n-4.png"><i class="fas fa-search-plus"></i></a>
- 					</div>
- 				</div>
- 				<div class="nuture-img-item">
- 					<a href="#"><img src="assets/img/about/n-5.png" alt=""></a>
- 					<div class="overay-nutre">
- 						<a href="assets/img/about/n-5.png"><i class="fas fa-search-plus"></i></a>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</section>
- 	<!-- nature-img end-->
+	<!-- nature-img start-->
+	<section id="img-nature">
+		<div class="heading">
+			<h2>ab-section</h2>
+		</div>
+		<div class="container-fluid">
+			<div class="img-nature-slider owl-carousel owl-theme">
+				<div class="nuture-img-item">
+					<a href="#"><img src="assets/img/about/n-1.png" alt=""></a>
+					<div class="overay-nutre">
+						<a href="assets/img/about/n-1.png"><i class="fas fa-search-plus"></i></a>
+					</div>
+				</div>
+				<div class="nuture-img-item">
+					<a href="#"><img src="assets/img/about/n-2.png" alt=""></a>
+					<div class="overay-nutre">
+						<a href="assets/img/about/n-2.png"><i class="fas fa-search-plus"></i></a>
+					</div>
+				</div>
+				<div class="nuture-img-item">
+					<a href="#"><img src="assets/img/about/n-3.png" alt=""></a>
+					<div class="overay-nutre">
+						<a href="assets/img/about/n-3.png"><i class="fas fa-search-plus"></i></a>
+					</div>
+				</div>
+				<div class="nuture-img-item">
+					<a href="#"><img src="assets/img/about/n-4.png" alt=""></a>
+					<div class="overay-nutre">
+						<a href="assets/img/about/n-4.png"><i class="fas fa-search-plus"></i></a>
+					</div>
+				</div>
+				<div class="nuture-img-item">
+					<a href="#"><img src="assets/img/about/n-5.png" alt=""></a>
+					<div class="overay-nutre">
+						<a href="assets/img/about/n-5.png"><i class="fas fa-search-plus"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- nature-img end-->
 
- 	<!-- footer start-->
- 	<footer id="footer-all-page">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
- 					<div class="all-fott-cov">
- 						<div class="footer0logo">
- 							<a href="#"><img src="assets/img/logo.png" alt="img" /></a>
- 						</div>
- 						<div class="footer-para">
- 							<p>
- 								Pellentesque convallis, diam et feugiat volutpat, tellus
- 								ligula consequat augue, quis malesuada nisi ante nec metus.
- 								Sed id pretium nunc. Mauris vitae porttitor tortor. Fusce
- 								aliquet ac metus eget egestas.
- 							</p>
- 						</div>
- 						<div class="footer-form">
- 							<div class="form-group d-flex">
- 								<input type="text" placeholder="Enter your email" class="form-control" />
- 								<button class="btn plean-footer">
- 									<i class="fab fa-telegram-plane"></i>
- 								</button>
- 							</div>
- 						</div>
- 					</div>
- 				</div>
- 				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
- 					<div class="quick-link">
- 						<div class="comm-foot-hed">
- 							<h6>Quick Links</h6>
- 						</div>
- 						<div class="foot-list">
- 							<ul>
- 								<li><a href="about.html">About</a></li>
- 								<li><a href="tour-packages.html">Tours & Trips</a></li>
- 								<li><a href="tour-details.html">Locations Find</a></li>
- 								<li><a href="contact.html">Contact Us.</a></li>
- 								<li><a href="faq.html">Terms & conditions</a></li>
- 								<li><a href="faq.html">Praivcy Policy</a></li>
- 							</ul>
- 						</div>
- 					</div>
- 				</div>
- 				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
- 					<div class="quick-link-2">
- 						<div class="foot-list-2">
- 							<ul>
- 								<li><a href="index.html">Home</a></li>
- 								<li><a href="faq.html">Testimonials</a></li>
- 								<li><a href="gallery.html">Team</a></li>
- 								<li><a href="service.html">Service</a></li>
- 								<li><a href="blog.html">News</a></li>
- 							</ul>
- 						</div>
- 					</div>
- 				</div>
- 				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
- 					<div class="recent-fot-post mar-top-responsive">
- 						<div class="comm-foot-hed">
- 							<h6>Recent Post</h6>
- 						</div>
- 						<div class="post-cover-foot">
- 							<div class="pos-rece-1">
- 								<div class="post-rect-img">
- 									<a href="blog-single.html"><img src="assets/img/common-img/footer-blog.png" alt="" /></a>
- 								</div>
- 								<div class="podt-text-1">
- 									<p>
- 										<a href="blog-single.html">Pellentesque convallis, diam et feugiat volutpat,
- 											tellus ligula c</a>
- 									</p>
- 									<span>Sep 09, 2019</span>
- 								</div>
- 							</div>
- 							<div class="pos-rece-1">
- 								<div class="post-rect-img">
- 									<a href="blog-single.html"><img src="assets/img/common-img/footer-blog-1.png" alt="" /></a>
- 								</div>
- 								<div class="podt-text-1">
- 									<p>
- 										<a href="blog-single.html">Pellentesque convallis, diam et feugiat volutpat,
- 											tellus ligula c</a>
- 									</p>
- 									<span>Sep 09, 2019</span>
- 								</div>
- 							</div>
- 							<div class="pos-rece-1">
- 								<div class="post-rect-img">
- 									<a href="blog-single.html"><img src="assets/img/common-img/footer-blog-2.png" alt="" /></a>
- 								</div>
- 								<div class="podt-text-1">
- 									<p>
- 										<a href="blog-single.html">Pellentesque convallis, diam et feugiat volutpat,
- 											tellus ligula c</a>
- 									</p>
- 									<span>Sep 09, 2019</span>
- 								</div>
- 							</div>
- 						</div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</footer>
+	<!-- footer start-->
+	<footer id="footer-all-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+					<div class="all-fott-cov">
+						<div class="footer0logo">
+							<a href="#"><img src="assets/img/logo.png" alt="img" /></a>
+						</div>
+						<div class="footer-para">
+							<p>
+								Pellentesque convallis, diam et feugiat volutpat, tellus
+								ligula consequat augue, quis malesuada nisi ante nec metus.
+								Sed id pretium nunc. Mauris vitae porttitor tortor. Fusce
+								aliquet ac metus eget egestas.
+							</p>
+						</div>
+						<div class="footer-form">
+							<div class="form-group d-flex">
+								<input type="text" placeholder="Enter your email" class="form-control" />
+								<button class="btn plean-footer">
+									<i class="fab fa-telegram-plane"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="quick-link">
+						<div class="comm-foot-hed">
+							<h6>Quick Links</h6>
+						</div>
+						<div class="foot-list">
+							<ul>
+								<li><a href="about.html">About</a></li>
+								<li><a href="tour-packages.html">Tours & Trips</a></li>
+								<li><a href="tour-details.html">Locations Find</a></li>
+								<li><a href="contact.html">Contact Us.</a></li>
+								<li><a href="faq.html">Terms & conditions</a></li>
+								<li><a href="faq.html">Praivcy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="quick-link-2">
+						<div class="foot-list-2">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="faq.html">Testimonials</a></li>
+								<li><a href="gallery.html">Team</a></li>
+								<li><a href="service.html">Service</a></li>
+								<li><a href="blog.html">News</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+					<div class="recent-fot-post mar-top-responsive">
+						<div class="comm-foot-hed">
+							<h6>Recent Post</h6>
+						</div>
+						<div class="post-cover-foot">
+							<div class="pos-rece-1">
+								<div class="post-rect-img">
+									<a href="blog-single.html"><img src="assets/img/common-img/footer-blog.png"
+											alt="" /></a>
+								</div>
+								<div class="podt-text-1">
+									<p>
+										<a href="blog-single.html">Pellentesque convallis, diam et feugiat volutpat,
+											tellus ligula c</a>
+									</p>
+									<span>Sep 09, 2019</span>
+								</div>
+							</div>
+							<div class="pos-rece-1">
+								<div class="post-rect-img">
+									<a href="blog-single.html"><img src="assets/img/common-img/footer-blog-1.png"
+											alt="" /></a>
+								</div>
+								<div class="podt-text-1">
+									<p>
+										<a href="blog-single.html">Pellentesque convallis, diam et feugiat volutpat,
+											tellus ligula c</a>
+									</p>
+									<span>Sep 09, 2019</span>
+								</div>
+							</div>
+							<div class="pos-rece-1">
+								<div class="post-rect-img">
+									<a href="blog-single.html"><img src="assets/img/common-img/footer-blog-2.png"
+											alt="" /></a>
+								</div>
+								<div class="podt-text-1">
+									<p>
+										<a href="blog-single.html">Pellentesque convallis, diam et feugiat volutpat,
+											tellus ligula c</a>
+									</p>
+									<span>Sep 09, 2019</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
- 	<!-- footer bottom-->
- 	<div class="footre-bottom">
- 		<div class="container">
- 			<div class="row">
- 				<div class="col-lg-6 col-md-8 col-sm-8 col-8">
- 					<div class="copy-right-para">
- 						<p>And IT Themes © 2019. All Rights Reserved</p>
- 					</div>
- 				</div>
- 				<div class="col-lg-6 col-md-4 col-sm-4 col-4">
- 					<div class="copy-right-icon">
- 						<a href="#"><i class="fab fa-facebook-f face no-ag"></i></a>
- 						<a href="#"><i class="fab fa-twitter face"></i></a>
- 						<a href="#"><i class="fab fa-linkedin-in face"></i></a>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
- 	<!-- footer end-->
+	<!-- footer bottom-->
+	<div class="footre-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-8 col-sm-8 col-8">
+					<div class="copy-right-para">
+						<p>And IT Themes © 2019. All Rights Reserved</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-4 col-sm-4 col-4">
+					<div class="copy-right-icon">
+						<a href="#"><i class="fab fa-facebook-f face no-ag"></i></a>
+						<a href="#"><i class="fab fa-twitter face"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in face"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer end-->
 
- 	<!-- Backto-top-Button Start-->
- 	<div class="go-top">
- 		<i class="fas fa-chevron-up"></i>
- 		<i class="fas fa-arrow-up"></i>
- 	</div>
- 	<!-- Backto-top-Button End-->
+	<!-- Backto-top-Button Start-->
+	<div class="go-top">
+		<i class="fas fa-chevron-up"></i>
+		<i class="fas fa-arrow-up"></i>
+	</div>
+	<!-- Backto-top-Button End-->
 
 
 
- 	<!-- Main js -->
- 	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<!-- Main js -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
 
- 	<!-- Bootstrap-->
- 	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Bootstrap-->
+	<script src="assets/js/bootstrap.min.js"></script>
 
- 	<!-- owl.carousel-->
- 	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- owl.carousel-->
+	<script src="assets/js/owl.carousel.min.js"></script>
 
- 	<!-- wow.min-->
- 	<script src="assets/js/wow.min.js"></script>
+	<!-- wow.min-->
+	<script src="assets/js/wow.min.js"></script>
 
- 	<!-- html5shiv-->
- 	<script src="assets/js/html5shiv.js"></script>
+	<!-- html5shiv-->
+	<script src="assets/js/html5shiv.js"></script>
 
- 	<!-- respondl-->
- 	<script src="assets/js/respond.min.js"></script>
+	<!-- respondl-->
+	<script src="assets/js/respond.min.js"></script>
 
- 	<!-- prettifyl-->
- 	<script src="assets/js/prettify.js"></script>
+	<!-- prettifyl-->
+	<script src="assets/js/prettify.js"></script>
 
- 	<!-- meanu-->
- 	<script src="assets/js/meanmenu.min.js"></script>
+	<!-- meanu-->
+	<script src="assets/js/meanmenu.min.js"></script>
 
- 	<!-- venobox-->
- 	<script src="assets/js/venobox.min.js"></script>
+	<!-- venobox-->
+	<script src="assets/js/venobox.min.js"></script>
 
- 	<!-- popper js-->
- 	<script src="assets/js/popper.min.js"></script>
+	<!-- popper js-->
+	<script src="assets/js/popper.min.js"></script>
 
- 	<!-- magnify js-->
- 	<script src="assets/js/magnify-popup.js"></script>
+	<!-- magnify js-->
+	<script src="assets/js/magnify-popup.js"></script>
 
- 	<!-- menu js-->
- 	<script src="assets/js/menu-custom.js"></script>
+	<!-- menu js-->
+	<script src="assets/js/menu-custom.js"></script>
 
- 	<!--bootstrap-datepicker-->
- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+	<!--bootstrap-datepicker-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
 
- 	<!-- custom-->
- 	<script src="assets/js/custom.js"></script>
+	<!-- custom-->
+	<script src="assets/js/custom.js"></script>
 
- 	<script>
- 		$(".overay-nutre").magnificPopup({
- 			delegate: 'a',
- 			type: 'image',
- 			gallery: {
- 				enabled: true
- 			}
- 		});
- 	</script>
+	<script>
+		$(".overay-nutre").magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			gallery: {
+				enabled: true
+			}
+		});
+	</script>
 
- 	<script>
- 		$(document).ready(function () {
- 			$(".venobox").venobox({
- 				framewidth: "600px",
- 				frameheight: "400px",
- 				border: "none",
- 				bgcolor: "#5dff5e", // default: '#fff'
- 				titleattr: "data-title",
- 				numeratio: true,
- 				infinigall: true,
- 			});
- 		});
- 	</script>
+	<script>
+		$(document).ready(function () {
+			$(".venobox").venobox({
+				framewidth: "600px",
+				frameheight: "400px",
+				border: "none",
+				bgcolor: "#5dff5e", // default: '#fff'
+				titleattr: "data-title",
+				numeratio: true,
+				infinigall: true,
+			});
+		});
+	</script>
 
- </body>
+</body>
 
- </html>
+</html>
