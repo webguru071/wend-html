@@ -36,6 +36,16 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
 }
 
 @media (max-width:992px) {
+  #banner_home_eight {
+    padding: 92px 0;
+    background-size: cover;
+}
+#banner_home_eight .nav-fill {
+  width: 70%;
+}
+.top_details_eight_item {
+  margin-top: 30px;
+}
   .amz-img {
     text-align: center;
   }
@@ -474,6 +484,14 @@ Tags:   hotel, resort, tour, tourism, tourist, tours website, travel, traveler, 
   .team-box:hover .box-content {
     top: 5px;
   }
+  .btn_slider.owl-theme .owl-nav {
+    position: inherit;
+    right: 0;
+    top: 0px;
+}
+.qustion_area_counter {
+  display: none;
+}
 }
 
 @media (max-width: 576px) {

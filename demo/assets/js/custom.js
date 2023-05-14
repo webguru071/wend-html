@@ -151,6 +151,90 @@ $(document).ready(function () {
             }
         }
     });
+    $('.top_details_slider_wrapper').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: false,
+        nav:true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 1000,
+        autoplayHoverPause: true,
+        navText: ["<i class='fas fa-arrow-left'></i>", "<i class=' fas fa-arrow-right' ></i>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1000: {
+                items: 2
+            }
+        }
+    });
+    $('.best_offer_slider_wrapper').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: false,
+        nav:true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 1000,
+        autoplayHoverPause: true,
+        navText: ["<i class='fas fa-arrow-left'></i>", "<i class=' fas fa-arrow-right' ></i>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
+    $('.select_cate_area_slider').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: false,
+        nav:true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 1000,
+        autoplayHoverPause: true,
+        navText: ["<i class='fas fa-arrow-left'></i>", "<i class=' fas fa-arrow-right' ></i>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    });
     $('.instagram-img-slider-area').owlCarousel({
         loop: true,
         margin: 0,
@@ -416,6 +500,34 @@ $(document).ready(function () {
         }
     });
 
+    // testimonial slider
+    $('.testimonial_eight_area_wrapper').owlCarousel({
+        loop: true,
+        margin: 0,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            360: {
+                items: 1
+            },
+            767: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            },
+            1800: {
+                items:1
+            }
+        }
+    });
     // home page five local-slider
 
     $('.local-items-slider-wrapper').owlCarousel({
@@ -437,7 +549,6 @@ $(document).ready(function () {
             767: {
                 items: 2
             },
-
             1000: {
                 items: 2
             },

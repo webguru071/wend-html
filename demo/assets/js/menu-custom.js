@@ -4,7 +4,7 @@
   var digiciaApp = {
     /* ---------------------------------------------
             ## Mobile Menu
-        --------------------------------------------- */
+    ---------------------------------------------- */
     mobile_menu: function () {
       var mobilesearch = $(
           ".site-header .navigation-area .header-navigation-right"
